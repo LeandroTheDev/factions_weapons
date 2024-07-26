@@ -1,0 +1,2057 @@
+module Base
+{
+	model RUSAssaultRifle
+	{
+		mesh = Weapons/Firearm/RUSAssaultRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0050 0.4340,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0120 0.0790 0.0570,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAKS74
+	{
+		mesh = Weapons/Firearm/RUSAKS74,
+		texture = weapons/firearm/RUSAssaultRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0050 0.4340,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0120 0.0790 0.0570,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAKS74Folded
+	{
+		mesh = Weapons/Firearm/RUSAKS74Folded,
+		texture = weapons/firearm/RUSAssaultRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0050 0.4340,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0120 0.0790 0.0570,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAK74MRifle
+	{
+		mesh = Weapons/Firearm/RUSAssaultRifle,
+		texture = weapons/firearm/RUSAK74MRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0050 0.4340,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0100 0.0430 0.0480,
+			rotate = 90.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAK74MRifleFolded
+	{
+		mesh = Weapons/Firearm/RUSAssaultRifleFolded,
+		texture = weapons/firearm/RUSAK74MRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0050 0.4340,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0100 0.0430 0.0480,
+			rotate = 90.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAssaultRifle02
+	{
+		mesh = Weapons/Firearm/RUSAssaultRifle02,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0000 0.4867,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0120 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAKSURifle
+	{
+		mesh = Weapons/Firearm/RUSAKSURifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0050 0.2950,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0120 0.0790 0.0360,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAKSURifleFolded
+	{
+		mesh = Weapons/Firearm/RUSAKSURifleFolded,
+		texture = weapons/Firearm/RUSAKSURifle,
+
+		attachment muzzle
+		{
+			offset = 0.0010 0.0070 0.2770,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0120 0.0790 0.0360,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAKM
+	{
+		mesh = Weapons/Firearm/RUSAKM,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0040 0.4030,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAKMS
+	{
+		mesh = Weapons/Firearm/RUSAKMS,
+		texture = weapons/Firearm/RUSAKM,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0040 0.4030,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSAKMSFolded
+	{
+		mesh = Weapons/Firearm/RUSAKMSFolded,
+		texture = weapons/Firearm/RUSAKM,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0040 0.4030,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSVeprKM
+	{
+		mesh = Weapons/Firearm/RUSAKM,
+		texture = weapons/firearm/RUSVeprKM,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0040 0.4030,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSM14
+	{
+		mesh = Weapons/Firearm/RUSM14,
+		texture = weapons/firearm/RUSAssaultRifle02,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0060 0.4870,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1800 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0110 0.0440 0.0450,
+			rotate = 90.0000 0.0000 91.0000,
+		}
+	}
+	model RUSRevolver
+	{
+		mesh = Weapons/Firearm/RUSRevolver,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1460 -0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0100 0.0690 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSRevolver_Long
+	{
+		mesh = Weapons/Firearm/RUSRevolver_Long,
+
+		attachment muzzle
+		{
+			offset = 0.0000 -0.0530 0.1580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0110 0.0810 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSRevolver_Short
+	{
+		mesh = Weapons/Firearm/RUSRevolver_Short,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1160 -0.0280,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0400 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0110 0.0580 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSHandgun
+	{
+		mesh = Weapons/Firearm/RUSHandgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 -0.0240 0.1320,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0800 0.0030,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.0900 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0110 0.0670 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSHandgunStock
+	{
+		mesh = Weapons/Firearm/RUSHandgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 -0.0240 0.1320,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0800 0.0030,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.0900 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0110 0.0670 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSAPSstock
+   {
+      mesh = WorldItems/APSstock,
+      texture = weapons/firearm/RUSHandgun,		  
+   }
+	model RUSAPBpistol
+	{
+		mesh = Weapons/Firearm/RUSAPBpistol,
+
+		attachment muzzle
+		{
+			offset = 0.0000 -0.0240 0.1800,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0800 0.0030,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.0900 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0110 0.0670 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSPKM
+	{
+		mesh = Weapons/Firearm/RUSPKM,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0060 0.5570,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0050 0.0350 0.0780,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0210 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1450 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0150 0.0670,
+			rotate = 179.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.2340 0.0020,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0200 0.1300 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSPKM_ground
+	{
+	   mesh = Weapons/Firearm/RUSPKM_ground,
+	   texture = Weapons/Firearm/RUSPKM,
+	}
+	model RUSGunLight
+    {
+        mesh = Weapons/parts/Handgun_Light,
+    }
+	model RUSRedDot
+	{
+	    mesh = Weapons/parts/Handgun_RedDotScope,
+	    texture = Weapons/parts/Handgun_RedDotScopeTEMP,
+	}
+	model RUSRecoilPad
+    {
+        mesh = Weapons/parts/Rifle_RecoilPad,
+    }
+	model RUSLaser
+	{
+		mesh = Weapons/parts/Handgun_Laser,
+	}
+	model RUSChokeTube
+    {
+        mesh = Weapons/parts/Shotgun_Choke,
+    }
+	model RUSHandgunRedDot
+	{
+		mesh = Weapons/Firearm/RUSHandgun_RedDot,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1700 -0.0300,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+	}
+	model RUSHandgun02
+	{
+		mesh = Weapons/Firearm/RUSHandgun02,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0000 0.1681,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0800 0.0030,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.0900 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0090 0.0570 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSHandgun03
+	{
+		mesh = Weapons/Firearm/RUSHandgun03,
+
+		attachment muzzle
+		{
+			offset = 0.0000 -0.0246 0.1374,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0800 0.0030,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.0900 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0090 0.0620 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSPBpistol
+	{
+		mesh = Weapons/Firearm/RUSPBpistol,
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0440 -0.0400,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0800 0.0030,
+			rotate = 1.0000 1.0000 1.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1240 -0.0380,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+
+		attachment laser
+		{
+			offset = 0.0000 0.0900 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = -0.0090 0.0620 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSHuntingRifle
+	{
+		mesh = Weapons/Firearm/RUSHuntingRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0030 0.4600,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0410 0.0580,
+			rotate = 180.0000 0.0000 -90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0120 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSMosin
+	{
+		mesh = Weapons/Firearm/RUSMosinRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0400 0.5160,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0090 0.0470 0.0510,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0120 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSMosinSawnoff
+	{
+		mesh = Weapons/Firearm/RUSMosinRifleSawnoff,
+		texture = weapons/Firearm/RUSMosinRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0060 0.2970,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0090 0.0470 0.0510,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0120 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSSVTrifle
+	{
+		mesh = Weapons/Firearm/RUSSVTRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0400 0.5160,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0040 0.0440 0.0580,
+			rotate = 180.0000 0.0000 -90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSSVDRifle
+	{
+		mesh = Weapons/Firearm/RUSSVDRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0214 0.6106,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0110 0.0540 0.0520,
+			rotate = 90.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0120 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSVSS
+	{
+		mesh = Weapons/Firearm/RUSVSSrifle,
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0120 0.0550 0.0710,
+			rotate = 90.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = 163.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0120 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSASVAL
+	{
+		mesh = Weapons/Firearm/RUSASVALrifle,
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0150 0.0400 0.0710,
+			rotate = 90.0000 0.0000 90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0120 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSASVALFolded
+	{
+		mesh = Weapons/Firearm/RUSASVALrifleFolded,
+		texture = weapons/Firearm/RUSASVALrifle,
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = -0.0130 -0.0560 0.0710,
+			rotate = -90.0000 0.0000 -90.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0120 0.1500 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSMP40
+	{
+		mesh = Weapons/Firearm/RUSMP40smg,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0280 0.4140,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSMP40Folded
+	{
+		mesh = Weapons/Firearm/RUSMP40smgFolded,
+		texture = weapons/Firearm/RUSMP40smg,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0280 0.4140,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSPPSsmg
+	{
+		mesh = Weapons/Firearm/RUSPPSsmg,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0280 0.4140,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSPPSsmgFolded
+	{
+		mesh = Weapons/Firearm/RUSPPSsmgFolded,
+		texture = weapons/Firearm/RUSPPSsmg,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0280 0.4140,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSPPShsmg
+	{
+		mesh = Weapons/Firearm/RUSPPShsmg,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0280 0.3520,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model RUSTaigaMachete
+	{
+		mesh = Weapons/1Handed/RUSTaigaMachete,
+		texture = Weapons/1Handed/RUSTaigaMachete,
+	}
+	model RUSTaigaMacheteArmy
+	{
+		mesh = Weapons/1Handed/RUSTaigaMachete,
+		texture = Weapons/1Handed/RUSTaigaMacheteArmy,
+	}
+	model RUSShashka1
+	{
+		mesh = Weapons/1Handed/RUSShashka,
+		texture = Weapons/1Handed/RUSShashka1,
+	}
+	model RUSShashka2
+	{
+		mesh = Weapons/1Handed/RUSShashka,
+		texture = Weapons/1Handed/RUSShashka2,
+	}
+	model RUSShashka3
+	{
+		mesh = Weapons/1Handed/RUSShashka,
+		texture = Weapons/1Handed/RUSShashka3,
+	}
+	model RUSShashka4
+	{
+		mesh = Weapons/1Handed/RUSShashka,
+		texture = Weapons/1Handed/RUSShashka4,
+	}
+	model RUSMPL50
+	{
+		mesh = Weapons/1Handed/RUSTrenchShovel,
+		texture = Weapons/1Handed/RUSTrenchShovel,
+	}
+	model RUSNR43
+	{
+		mesh = Weapons/1Handed/RUSNR43,
+		texture = Weapons/1Handed/RUSNR43,
+	}
+	model RUS6h4
+	{
+		mesh = Weapons/1Handed/RUS6h4,
+		texture = Weapons/1Handed/RUS6h4,
+	}
+	model RUSPUscope
+	{
+		mesh = WorldItems/Rifle_PUScope,
+		texture = Weapons/parts/Rifle_PUScope,
+	}
+	model RUSPUscope_ground
+   {
+      mesh = WorldItems/Rifle_PUScope_ground,
+      texture = Weapons/parts/Rifle_PUScope,
+   }
+	model RUSPSOscope
+	{
+		mesh = WorldItems/Rifle_PSOScope,
+		texture = Weapons/parts/Rifle_PSOScope,
+	}
+	model RUSPSOscope_ground
+   {
+      mesh = WorldItems/Rifle_PSOScope_ground,
+      texture = Weapons/parts/Rifle_PSOScope,
+   }
+	model RUSPBS1suppressor
+	{
+		mesh = WorldItems/PBS1,
+		texture = Weapons/parts/PBS,
+	}
+	model RUSSKSsuppressor
+	{
+		mesh = WorldItems/SKSsupp,
+		texture = Weapons/parts/PBS,
+	}
+	model RUSPBS4suppressor
+	{
+		mesh = WorldItems/PBS4,
+		texture = Weapons/parts/PBS,
+	}
+	model RUSAPBsuppressor
+	{
+		mesh = WorldItems/APB_Suppressor,
+		texture = Weapons/firearm/RUSAPBpistol,
+	}
+	model RUSShotgun
+	{
+		mesh = Weapons/Firearm/RUSShotgun,
+
+		attachment muzzle
+		{
+			offset = 0.0240 0.0050 0.5000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0120 0.0570 0.0550,
+			rotate = 180.0000 0.0000 -90.0000,
+		}
+	}
+	model RUSShotgunSawnOff
+	{
+		mesh = Weapons/Firearm/RUSShotgunSawnOff,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0500 0.3530,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSIZH43Shotgun
+	{
+		mesh = Weapons/Firearm/RUSIZH43Shotgun,
+		texture = weapons/firearm/RUSShotgunDoubleBarrel,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0073 0.5030,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSIZH43Shotgun_OPEN
+   {
+      mesh = Weapons/Firearm/RUSIZH43Shotgun_OPEN,
+		texture = weapons/firearm/RUSShotgunDoubleBarrel,
+   }
+	model RUSIZH43ShotgunSawn
+	{
+		mesh = Weapons/Firearm/RUSIZH43ShotgunSawn,
+		texture = weapons/firearm/RUSShotgunDoubleBarrel,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0220 0.2760,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSIZH43ShotgunSawn_OPEN
+   {
+      mesh = Weapons/Firearm/RUSIZH43ShotgunSawn_OPEN,
+		texture = weapons/firearm/RUSShotgunDoubleBarrel,
+   }
+	model RUSIZH18Shotgun
+	{
+		mesh = Weapons/Firearm/RUSIZHShotgun,
+		texture = weapons/firearm/RUSIzhRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0073 0.5030,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSIZH18Shotgun_OPEN
+   {
+      mesh = Weapons/Firearm/RUSIZHShotgun_OPEN,
+		texture = weapons/firearm/RUSIzhRifle,
+   }
+	model RUSIZH18ShotgunSawn
+	{
+		mesh = Weapons/Firearm/RUSIZHShotgunSawn,
+		texture = weapons/firearm/RUSIzhRifle,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0220 0.2760,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSIZH18ShotgunSawn_OPEN
+   {
+      mesh = Weapons/Firearm/RUSIZHShotgunSawn_OPEN,
+		texture = weapons/firearm/RUSIzhRifle,
+   }
+	model RUSTOZ34Shotgun
+	{
+		mesh = Weapons/Firearm/RUSTOZ34Shotgun,
+		texture = weapons/firearm/RUSTOZ34Shotgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0010 0.6260,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSTOZ34Shotgun_OPEN
+   {
+      mesh = Weapons/Firearm/RUSTOZ34Shotgun_OPEN,
+		texture = weapons/firearm/RUSTOZ34Shotgun,
+   }
+	model RUSTOZ34ShotgunSawnoff
+	{
+		mesh = Weapons/Firearm/RUSTOZ34ShotgunSawn,
+		texture = weapons/firearm/RUSTOZ34Shotgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0220 0.2760,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUSTOZ34ShotgunSawnoff_OPEN
+   {
+      mesh = Weapons/Firearm/RUSTOZ34ShotgunSawn_OPEN,
+		texture = weapons/firearm/RUSTOZ34Shotgun,
+   }
+	model RUSVarmintRifle
+	{
+		mesh = weapons/firearm/RUSVarmintRifle,
+
+		attachment bayonet
+		{
+			offset = 0.0000 0.4340 0.0080,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0410 0.4380,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = 0.0000 0.3510 0.0160,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0400 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.1090 0.0450,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1630 -0.0210,
+			rotate = 4.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0010 0.0990 0.0410,
+			rotate = -179.0000 0.0000 -180.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0110 0.1600 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model RUS9x18Bullet
+   {
+      mesh = WorldItems/9x18mmBullet,
+      texture = weapons/firearm/RUSHandgun03,
+   }
+	model RUS9x18Box
+   {
+      mesh = WorldItems/9x18mmBox,
+      texture = weapons/firearm/RUSHandgun03,		  
+   }
+	model RUS9x18Magazine
+   {
+      mesh = WorldItems/9x18mmMag,
+      texture = weapons/firearm/RUSHandgun03,		  
+   }
+	model RUS9x18LongMag
+   {
+      mesh = WorldItems/9x18mmLongMag,
+      texture = weapons/firearm/RUSHandgun,		  
+   }
+	model RUS9x19Bullet
+   {
+      mesh = WorldItems/9x19mmBullet,
+      texture = WorldItems/Box9mm,
+   }
+	model RUS9x19Box
+   {
+      mesh = WorldItems/9x19mmBox,
+      texture = WorldItems/Box9mm,
+   }
+	model RUS9x19Magazine
+   {
+      mesh = WorldItems/9x19mmMag,
+      texture = WorldItems/Handgun03,		  
+   }
+	model RUSMP40Magazine
+   {
+      mesh = WorldItems/MP40Mag,
+      texture = weapons/firearm/RUSMP40smg,		  
+   }
+	model RUS9x39Bullet
+   {
+      mesh = WorldItems/9x39Bullet,
+      texture = weapons/firearm/RUSVSSrifle,
+   }
+	model RUS9x39Box
+   {
+      mesh = WorldItems/9x39Box,
+      texture = weapons/firearm/RUSVSSrifle,		  
+   }
+	model RUS9x39Magazine
+   {
+      mesh = WorldItems/9x39Mag,
+      texture = weapons/firearm/RUSVSSrifle,
+   }
+	model RUS22LRBullet
+   {
+      mesh = WorldItems/22LRBullet,
+      texture = weapons/firearm/RUSVarmintRifle,
+   }
+	model RUS22LRBox
+   {
+      mesh = WorldItems/22LRBox,
+      texture = weapons/firearm/RUSVarmintRifle,		  
+   }
+	model RUS22LRMagazine
+   {
+      mesh = WorldItems/22LRMag,
+      texture = weapons/firearm/RUSVarmintRifle,		  
+   }
+	model RUS12gShell
+   {
+      mesh = WorldItems/12GShell,
+      texture = weapons/firearm/RUSShotgunDoubleBarrel,
+   }
+	model RUS12gBox
+   {
+      mesh = WorldItems/12GBox,
+      texture = weapons/firearm/RUSShotgunDoubleBarrel,		  
+   }
+	model RUS23x75Shell
+   {
+      mesh = WorldItems/23Bullet,
+      texture = weapons/firearm/RUSShotgun,
+   }
+	model RUS23x75Box
+   {
+      mesh = WorldItems/23Box,
+      texture = weapons/firearm/RUSShotgun,		  
+   }
+	model RUS545Bullet
+   {
+      mesh = WorldItems/545Bullet,
+      texture = WorldItems/Bullet545,
+   }
+	model RUS545Box
+   {
+      mesh = WorldItems/545Box,
+      texture = WorldItems/Box545,		  
+   }
+	model RUS762AKBullet
+   {
+      mesh = WorldItems/762AKBullet,
+      texture = WorldItems/Box762AK,
+   }
+	model RUS762AKBox
+   {
+      mesh = WorldItems/762AKBox,
+      texture = WorldItems/Box762AK,		  
+   }
+	model RUS762AKMagazine
+   {
+      mesh = WorldItems/762AKMag,
+      texture = weapons/firearm/RUSAKM,		  
+   }
+	model RUS762NBullet
+   {
+      mesh = WorldItems/762TBullet,
+      texture = weapons/firearm/RUSRevolver_Long,
+   }
+	model RUS762NBox
+   {
+      mesh = WorldItems/762TBox,
+      texture = weapons/firearm/RUSRevolver_Long,		  
+   }
+	model RUS762TOKBullet
+   {
+      mesh = WorldItems/762TOKBullet,
+      texture = weapons/firearm/RUSHandgun02,
+   }
+	model RUS762TOKBox
+   {
+      mesh = WorldItems/762TOKBox,
+      texture = weapons/firearm/RUSHandgun02,		  
+   }
+	model RUS762TOKMagazine
+   {
+      mesh = WorldItems/762TOKMagazine,
+      texture = weapons/firearm/RUSHandgun02,		  
+   }
+	model RUS762TOKppsMagazine
+   {
+      mesh = WorldItems/762TOKppsClip,
+      texture = weapons/firearm/RUSPPSsmg,		  
+   }
+	model RUS762TOKppshMagazine
+   {
+      mesh = WorldItems/762TOKppshClip,
+      texture = weapons/firearm/RUSPPShsmg,		  
+   }
+	model RUS762PKMBullet
+   {
+      mesh = WorldItems/762PKMBullet,
+      texture = weapons/firearm/RUSMosinRifle,
+   }
+	model RUS762PKMBox
+   {
+      mesh = WorldItems/762PKMBox,
+      texture = weapons/firearm/RUSMosinRifle,		  
+   }
+	model RUSPKMMagazine
+   {
+      mesh = WorldItems/PKMMagazine,
+      texture = weapons/firearm/RUSPKM,
+   }
+	model RUSSVTMagazine
+   {
+      mesh = WorldItems/SVTMagazine,
+      texture = weapons/firearm/RUSSVTRifle,
+   }
+	model RUSSVDMagazine
+   {
+      mesh = WorldItems/SVDMagazine,
+      texture = weapons/firearm/RUSSVDRifle,
+   }
+	model RUSAK74Magazine
+   {
+      mesh = WorldItems/AK74Magazine,
+      texture = weapons/firearm/RUSAssaultRifle,		  
+   }
+	model RUSRepairKitMakarov
+   {
+      mesh = WorldItems/Rk_PM,
+      texture = WorldItems/RepairKit9x18,		  
+   }
+	model RUSRepairKitAKS
+   {
+      mesh = WorldItems/Rk_AKS,
+      texture = WorldItems/RepairKit545x39,		  
+   }
+	model RUSRepairKitAKM
+   {
+      mesh = WorldItems/Rk_AKM,
+      texture = WorldItems/RepairKit762x39,		  
+   }
+	model RUSRepairKitPKM
+   {
+      mesh = WorldItems/Rk_AK,
+      texture = WorldItems/RepairKit762x54,		  
+   }
+	model RUSRepairKitSG
+   {
+      mesh = WorldItems/Rk_SG,
+      texture = WorldItems/RepairKit12g,		  
+   }
+	model RUSOiler1
+   {
+      mesh = WorldItems/Oiler1,
+      texture = WorldItems/Oiler1,		  
+   }
+	model RUSOiler2
+   {
+      mesh = WorldItems/Oiler2,
+      texture = WorldItems/Oiler2,		  
+   }
+	model RUSOiler3
+   {
+      mesh = WorldItems/Oiler3,
+      texture = WorldItems/Oiler3,
+   }
+	model RUSAmmoCrate545
+   {
+      mesh = WorldItems/AmmoCrate,
+      texture = WorldItems/AmmoCrate545,  
+   }
+	model RUSAmmocrate762ak
+   {
+      mesh = WorldItems/AmmoCrate,
+      texture = WorldItems/AmmoCrate762ak, 
+   }
+	model RUSAmmocrate762pkm
+   {
+      mesh = WorldItems/AmmoCrate,
+      texture = WorldItems/AmmoCrate762ak, 
+   }
+	model RUSAmmocrate939
+   {
+      mesh = WorldItems/AmmoCrate,
+      texture = WorldItems/AmmoCrate939, 
+   }
+	model RUSCannedAmmo545
+   {
+      mesh = WorldItems/AmmoCan,
+      texture = WorldItems/AmmoCrate545,  
+   }
+	model RUSCannedAmmo762ak
+   {
+      mesh = WorldItems/AmmoCan,
+      texture = WorldItems/AmmoCrate762ak, 
+   }
+	model RUSCannedAmmo762pkm
+   {
+      mesh = WorldItems/AmmoCan,
+      texture = WorldItems/AmmoCrate762ak, 
+   }
+	model RUSCannedAmmo939
+   {
+      mesh = WorldItems/AmmoCan,
+      texture = WorldItems/AmmoCrate939, 
+   }
+	model RUSCannedAmmoOpen
+   {
+      mesh = WorldItems/AmmoCanOpen,
+      texture = WorldItems/AmmoCrate939, 
+   }
+}

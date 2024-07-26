@@ -1,0 +1,53 @@
+module Base
+{
+    item SpearButterKnife
+    {
+	Type	=	Weapon,	
+	OBSOLETE = true,
+	}
+		
+    item SpearFork
+    {
+	Type	=	Weapon,	
+	OBSOLETE = true,
+	}
+
+    item SpearLetterOpener
+    {
+	Type	=	Weapon,	
+	OBSOLETE = true,
+	}
+
+    item SpearScalpel
+    {
+	Type	=	Weapon,	
+	OBSOLETE = true,
+	}
+
+    item SpearSpoon
+    {
+	Type	=	Weapon,	
+	OBSOLETE = true,
+	}
+
+    item SpearScissors
+    {
+	Type	=	Weapon,	
+	OBSOLETE = true,
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

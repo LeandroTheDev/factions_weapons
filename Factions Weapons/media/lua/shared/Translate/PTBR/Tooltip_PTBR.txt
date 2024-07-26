@@ -1,0 +1,8 @@
+Tooltip_PTBR = {
+	Tooltip_Silencer = "Reduz o som do disparo em 80% porém reduz ligeiramente alcance da arma",
+
+	Tooltip_NotForCarService = "Nao e adequado para manutencao de veiculos.",
+	Tooltip_CanBeUsedAsClawHammer = "Pode ser usado como martelo ou para arrancar pregos.",
+	Tooltip_GardenSheersCanBeDisassembled = "Pode ser desmontado e usado como arma.",
+	Tooltip_Foldable = "Dobrar uma arma faz com que ela ocupe menos espaço, mas também torna mais difícil atirar.",
+}

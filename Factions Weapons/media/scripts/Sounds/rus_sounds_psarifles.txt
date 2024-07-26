@@ -1,0 +1,317 @@
+module Base
+{
+	sound PPSshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/PPSshoot.wav,
+			distanceMax = 70,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound PPSmagin
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/PPSmagin.wav,
+		}
+	}
+
+	sound PPSmagout
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/PPSmagout.wav,
+		}
+	}
+
+	sound PPSrack
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/PPSrack.wav,
+		}
+	}
+
+	sound MP40shoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/MP40shoot.wav,
+			distanceMax = 80,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound MP40magin
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/MP40magin.wav,
+		}
+	}
+
+	sound MP40magout
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/MP40magout.wav,
+		}
+	}
+
+	sound AKequip
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/AKequip.wav,
+		}
+	}
+
+	sound AKunequip
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/AKunequip.wav,
+		}
+	}
+
+	sound MP40shoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/MP40shoot.wav,
+			distanceMax = 80,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound AK74shoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/AK74shoot.wav,
+			distanceMax = 80,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound AKshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/AKshoot.wav,
+			distanceMax = 80,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound PBSshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/PBSshoot.wav,
+			distanceMax = 15,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound AKreload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/AKreload.wav,
+		}
+	}
+
+	sound AKunload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/AKunload.wav,
+		}
+	}
+
+	sound AKrack
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/AKrack.wav,
+		}
+	}
+
+	sound Mosinshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/Mosinshoot.wav,
+			distanceMax = 80,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound Mosinequip
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/Mosinequip.wav,
+		}
+	}
+
+	sound Mosinroundin
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/Mosinroundin.wav,
+		}
+	}
+
+	sound Mosinstartreload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/Mosinstartreload.wav,
+		}
+	}
+
+	sound Mosinendreload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/Mosinendreload.wav,
+		}
+	}
+
+	sound SKSshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/SKSshoot.wav,
+			distanceMax = 80,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound SVDshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/SVDshoot.wav,
+			distanceMax = 100,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound SVDreload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/SVDreload.wav,
+		}
+	}
+
+	sound SVDstartreload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/SVDstartreload.wav,
+		}
+	}
+
+	sound SVDendreload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/SVDendreload.wav,
+		}
+	}
+
+	sound SVDmagin
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/SVDmagin.wav,
+		}
+	}
+
+	sound SVDmagout
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/SVDmagout.wav,
+		}
+	}
+
+	sound VSSshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/VSSshoot.wav,
+			distanceMax = 15,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound PKMshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/PKMshoot.wav,
+			distanceMax = 100,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+}

@@ -1,0 +1,562 @@
+module SOMW
+{
+	imports
+	{
+		Base,
+	}
+
+	/*** Fixing ***/
+	fixing Fix Meat Cleaver
+    {
+       Require : MeatCleaver,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }		
+	
+    fixing Fix LeadPipe
+    {
+       Require : LeadPipe,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+    fixing Fix MetalBar
+    {
+       Require : MetalBar,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	
+    fixing Fix MetalPipe
+    {
+       Require : MetalPipe,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }	
+
+
+    fixing Fix PipeWrench
+    {
+       Require : PipeWrench,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+    fixing Fix Wrench
+    {
+       Require : Wrench,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+	fixing Fix AluminumBaseballBat
+	{
+	   Require : AluminumBaseballBat,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=4,
+	}	
+
+    fixing Fix Wired Baseball Bat
+    {
+       Require : BaseballBatWire,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+       Fixer : Wire,
+    }	
+	
+    fixing Fix Barbed Wired Baseball Bat
+    {
+       Require : BaseballBatBarbedWire,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+       Fixer : BarbedWire,
+    }	
+
+    fixing Fix Bolted Baseball Bat
+    {
+       Require : BaseballBatScrews,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+       Fixer : Screws,
+    }		
+	
+	
+	fixing Fix CampingHatchet
+	{
+	   Require : CampingHatchet,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}	
+	
+	fixing Fix EntrenchingShovel
+	{
+	   Require : EntrenchingShovel,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}		
+	
+	fixing Fix UniAxe
+	{
+	   Require : UniAxe,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}	
+	
+
+	fixing Fix AxeHammer
+	{
+	   Require : AxeHammer,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}	
+	
+	fixing Fix Nightstick
+	{
+	   Require : Nightstick,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=4,
+	}	
+	
+	fixing Fix IceAxe
+	{
+	   Require : IceAxe,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+    fixing Fix ShovelAxe
+    {
+       Require : ShovelAxe,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=3,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix Shovel2Axe
+    {
+       Require : Shovel2Axe,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=3,
+       Fixer : Scotchtape=4,
+    }
+	
+    fixing Fix ShovelSpear
+    {
+       Require : ShovelSpear,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=3,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix Shovel2Spear
+    {
+       Require : Shovel2Spear,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=3,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix GardenShearBlade
+    {
+       Require : GardenShearBlade,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }	
+
+    fixing Fix MilitaryKnife
+    {
+       Require : MilitaryKnife,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }	
+	
+    fixing Fix CombatKnife
+    {
+       Require : CombatKnife,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }	
+	
+	
+    fixing Fix CampyKnife
+    {
+       Require : CampyKnife,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }	
+
+    fixing Fix ButterflyKnife
+    {
+       Require : ButterflyKnife,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }	
+	
+    fixing Fix HandFile
+    {
+       Require : HandFile,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }	
+
+    fixing Fix WalkingCane
+    {
+       Require : WalkingCane,
+
+       Fixer : Woodglue=1; Woodwork=2,
+       Fixer : DuctTape=1,
+       Fixer : Glue=1,
+       Fixer : Scotchtape=2,
+    }
+
+    fixing Fix Kukri
+    {
+       Require : Kukri,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	
+    fixing Fix MilitaryMachete
+    {
+       Require : MilitaryMachete,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }		
+	
+    fixing Fix HookMachete
+    {
+       Require : HookMachete,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }	
+	
+    fixing Fix GardenScythe
+    {
+       Require : GardenScythe,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+	
+    fixing Fix LongLeadPipe
+    {
+       Require : LongLeadPipe,
+
+       Fixer : DuctTape=3,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix LongMetalBar
+    {
+       Require : LongMetalBar,
+
+       Fixer : DuctTape=3,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix LongMetalPipe
+    {
+       Require : LongMetalPipe,
+
+       Fixer : DuctTape=3,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix LShapedLugWrench
+    {
+       Require : LShapedLugWrench,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+    fixing Fix SpearCampyKnife
+    {
+       Require : SpearCampyKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix SpearGardenShearBlade
+    {
+       Require : SpearGardenShearBlade,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix SpearMilitaryKnife
+    {
+       Require : SpearMilitaryKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix SpearCombatKnife
+    {
+       Require : SpearCombatKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix SpearSharpTrowel
+    {
+       Require : SpearSharpTrowel,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix SpearKukri
+    {
+       Require : SpearKukri,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix SpearMilitaryMachete
+    {
+       Require : SpearMilitaryMachete,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpear
+    {
+       Require : PlankSpear,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }
+
+    fixing Fix PlankSpearBreadKnife
+    {
+       Require : PlankSpearBreadKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+	
+    fixing Fix PlankSpearHandFork
+    {
+       Require : PlankSpearHandFork,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearScrewdriver
+    {
+       Require : PlankSpearScrewdriver,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearHuntingKnife
+    {
+       Require : PlankSpearHuntingKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearIcePick
+    {
+       Require : PlankSpearIcePick,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearCampyKnife
+    {
+       Require : PlankSpearCampyKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearKnife
+    {
+       Require : PlankSpearKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearGardenShearBlade
+    {
+       Require : PlankSpearGardenShearBlade,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearMilitaryKnife
+    {
+       Require : PlankSpearMilitaryKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }		
+
+    fixing Fix PlankSpearCombatKnife
+    {
+       Require : PlankSpearCombatKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }		
+
+    fixing Fix PlankSpearSharpTrowel
+    {
+       Require : PlankSpearSharpTrowel,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+	
+    fixing Fix PlankSpearMachete
+    {
+       Require : PlankSpearMachete,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearKukri
+    {
+       Require : PlankSpearKukri,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }	
+
+    fixing Fix PlankSpearMilitaryMachete
+    {
+       Require : PlankSpearMilitaryMachete,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }		
+
+    fixing Fix SpearChippedStone
+    {
+       Require : SpearChippedStone,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }		
+	
+	
+}

@@ -1,0 +1,89 @@
+Recipes_EN = {
+
+/*Actions*/
+Recipe_Saw_Off_Shotgun_Stock = "Saw Off Shotgun Stock",
+Recipe_Saw_Off_Double_Barrel_Shotgun_Stock = "Saw Off Shotgun Stock",
+
+Recipe_Open_Box_of_7.62_Ammo = "Open Box of 7.62 Ammo",
+Recipe_Place_7.62_Ammo_in_Box = "Place 7.62 Ammo in Box",
+
+Recipe_Open_Box of_.22_Ammo = "Open Box of .22 Ammo",
+Recipe_Place_.22_Ammo_in_Box = "Place .22 Ammo in Box",
+
+Recipe_Couple_5.56_Magazines = "Couple 5.56 Magazines",
+Recipe_Separate_5.56_Magazines = "Separate 5.56 Magazines",
+
+Recipe_Couple_7.62_Magazines = "Couple 7.62 Magazines",
+Recipe_Separate_7.62_Magazines = "Separate 7.62 Magazines",
+
+Recipe_Attach_M9_Bayonet_to_Spear = "Attach M9 Bayonet to Spear",
+Recipe_Reclaim_M9_Bayonet_from_Spear = "Reclaim M9 Bayonet from Spear",
+
+Recipe_Make_Shovel_Axe = "Make Improvised Metal Axe from Shovel",	
+	Recipe_Make_Shovel_Spear = "Make Improvised Metal Spear from Shovel",	
+	
+	Recipe_Make_Sharp_Trowel = "Make Sharp Trowel",
+	
+	Recipe_Disassemble_Garden_Shears = "Disassemble Garden Shears",	
+
+	Recipe_Saw_Off_Pipe = "Saw Off Pipe",		
+	Recipe_Saw_Off_Bar = "Saw Off Bar",	
+
+	Recipe_Break_Plank_In_Half = "Break in Half",	
+	Recipe_Saw_Plank_In_Half = "Saw in Half",
+	
+	Recipe_Break_Tree_Branch_In_Half = "Break in Half",		
+	Recipe_Saw_Tree_Branch_In_Half = "Saw in Half",
+	Recipe_Cut_Tree_Branch_In_Half = "Cut in Half",	
+
+	Recipe_Build_Spiked_Half_Plank = "Build Spiked Half Plank",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "Build Wire Baseball Bat",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Build Barbed Wire Baseball Bat",	
+	Recipe_Build_Bolted_Baseball_Bat = "Build Baseball Bat with Screws",		
+
+	Recipe_Create_Spear = "Create Spear",
+	Recipe_Create_Plank_Spear = "Create Spear",
+	
+	Recipe_Convert_Into_Plank_Spear = "Convert into Spear",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Make Stone Spear",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Attach Combat Knife to Spear",
+	Recipe_Attach_Military_Knife_to_Spear = "Attach Military Knife to Spear",
+	Recipe_Attach_Camping_Knife_to_Spear = "Attach Camping Knife to Spear",
+	Recipe_Attach_Military_Machete_to_Spear = "Attach Military Machete to Spear",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Attach Sharp Trowel to Spear",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "Attach Garden Shear Blade to Spear",
+	Recipe_Attach_Kukri_to_Spear = "Attach Kukri to Spear",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Reclaim Combat Knife from Spear",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Reclaim Military Knife from Spear",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Reclaim Camping Knife from Spear",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Reclaim Military Machete from Spear",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Reclaim Sharp Trowel from Spear",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Reclaim Garden Shear Blade from Spear",
+	Recipe_Reclaim_Kukri_from_Spear = "Reclaim Kukri from Spear",
+
+	Recipe_Saw_Off_Double_Barrel_Shotgun = "Saw Off MP-43 Shotgun",
+    Recipe_Saw_Off_IZH18 = "Saw Off MP-18 Shotgun",
+    Recipe_Saw_Off_Shotgun = "Saw Off KS-23 Shotgun-Carbine",
+    Recipe_Saw_Off_TOZ34 = "Saw Off TOZ-34 Shotgun",
+    Recipe_Saw_Off_Mosin = "Saw Off Mosin Rifle",
+    Recipe_Fold_AKMS = "Fold AKMS",
+    Recipe_Unfold_AKMS = "Unfold AKMS",
+    Recipe_Fold_AKS74 = "Fold AKS-74",
+    Recipe_Unfold_AKS74 = "Unfold AKS-74",
+    Recipe_Fold_AKSU = "Fold AKS-74U", 
+    Recipe_Unfold_AKSU = "Unfold AKS-74U",
+    Recipe_Fold_AK74M = "Fold AK-74M",
+    Recipe_Unfold_AK74M = "Unfold AK-74M",
+    Recipe_Fold_MP40 = "Fold MP 40",
+    Recipe_Unfold_MP40 = "Unfold MP 40",
+    Recipe_Fold_PPS43 = "Fold PPS-43",
+    Recipe_Unfold_PPS43 = "Unfold PPS-43",
+    Recipe_Fold_ASVal = "Fold AS 'Val'",
+    Recipe_Unfold_ASVal = "Unfold AS 'Val'",
+    Recipe_Attach_APS_stock = "Attach stock",
+    Recipe_Detach_APS_stock = "Detach stock",
+}

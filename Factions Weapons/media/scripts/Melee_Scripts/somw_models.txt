@@ -1,0 +1,1440 @@
+module Base
+{
+
+	model Stone
+	{
+		mesh = WorldItems/StoneSquare,
+		texture = WorldItems/StoneSquare,
+		scale = 1,
+	}
+	
+	model ChippedStone
+	{
+		mesh = WorldItems/ChippedStone,
+		texture = WorldItems/ChippedStone,
+		scale = 1,
+	}	
+
+	/******* AXES *******/
+
+	model FireAxe
+	{
+		mesh = weapons/2handed/FireAxe,
+		texture = weapons/2handed/FireAxe,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}		
+		
+	}
+
+	model WoodAxe
+	{
+		mesh = weapons/2handed/WoodAxe,
+		texture = weapons/2handed/WoodAxe,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 -0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}		
+		
+	}
+	
+	model IceAxe
+	{
+		mesh = weapons/1handed/IceAxe,
+		texture = weapons/1handed/IceAxe,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 -0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}			
+		
+	}	
+
+	model UniAxe
+	{
+		mesh = weapons/2handed/UniAxe,
+		texture = weapons/2handed/UniAxe,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 -0.2000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}				
+		
+	}
+	
+	model PickAxe
+	{
+		mesh = weapons/2handed/PickAxe,
+		texture = weapons/2handed/PickAxe,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 -0.2000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}				
+		
+	}	
+	
+	model ShovelAxe
+	{
+		mesh = weapons/2handed/ShovelAxe,
+		texture = weapons/2handed/ShovelAxe,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}			
+		
+	}	
+ 
+	model Shovel2Axe
+	{
+		mesh = weapons/2handed/Shovel2Axe,
+		texture = weapons/2handed/Shovel2Axe,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}			
+		
+	}	
+
+	model HandStoneAxe
+	{
+		mesh = weapons/1handed/HandStoneAxe,
+		texture = weapons/1handed/HandStoneAxe,	
+		scale = 1,
+
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}		
+		
+	}
+
+	model StoneHammer
+	{
+		mesh = weapons/1handed/StoneHammer,
+		texture = weapons/1handed/StoneHammer,	
+		scale = 1,
+
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}		
+		
+	}
+
+	model FireplacePoker
+	{
+		mesh = weapons/1handed/FireplacePoker,
+		texture = weapons/1handed/FireplacePoker,	
+		scale = 1,
+
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+		
+	}
+
+	model WalkingCane
+	{
+		mesh = weapons/2handed/WalkingCane,
+		texture = weapons/2handed/WalkingCane,	
+		scale = 1,
+
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+		
+	}
+
+	model HandAxe
+	{
+		mesh = Weapons/1Handed/HandAxe,
+
+		attachment world
+		{
+			offset = 0.0000 -0.1250 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model EntrenchingShovel
+	{
+		mesh = weapons/1handed/EntrenchingShovel,
+		texture = weapons/1handed/EntrenchingShovel,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = -2.5000 180.0000 180.0000,
+		}			
+		
+	}
+
+	model CarvingFork
+	{
+		mesh = weapons/1handed/CarvingFork,
+		texture = weapons/1handed/CarvingFork,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = -2.5000 90.0000 180.0000,
+		}		
+		
+	}	
+		
+	
+	model CampingHatchet
+	{
+		mesh = weapons/1handed/CampingHatchet,
+		texture = weapons/1handed/CampingHatchet,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 -0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+
+	}	
+
+	model AxeHammer
+	{
+		mesh = weapons/1handed/AxeHammer,
+		texture = weapons/1handed/AxeHammer,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}			
+		
+	}		
+
+	/******* SHORT BLADE *******/
+
+
+	model MeatCleaver
+	{
+		mesh = Weapons/1Handed/MeatCleaver,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}
+	}
+	
+	model Knife
+	{
+		mesh = Weapons/1Handed/Knife,
+
+		attachment world
+		{
+			offset = 0.0000 -0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}	
+	
+	model BreadKnife
+	{
+		mesh = Weapons/1Handed/BreadKnife,
+
+		attachment world
+		{
+			offset = 0.0000 -0.1250 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}	
+
+
+	model Scissors
+	{
+		mesh = weapons/1handed/Scissors,
+		texture = weapons/1handed/Scissors,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.0500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+	}
+
+	model LetterOpener
+	{
+		mesh = weapons/1handed/LetterOpener,
+		texture = weapons/1handed/LetterOpener,	
+		attachment world
+		{
+			offset = 0.0000 0.0500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}		
+	}
+	
+	model HandFork
+	{
+		mesh = weapons/1handed/HandFork,
+		texture = weapons/1handed/HandFork,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = -2.5000 90.0000 180.0000,
+		}
+	}
+
+	model Trowel
+	{
+		mesh = Trowel,
+		texture = Trowel,
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = -2.5000 90.0000 180.0000,
+		}
+	}
+	
+	model SharpTrowel
+	{
+		mesh = SharpTrowel,
+		texture = Trowel,
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = -2.5000 90.0000 180.0000,
+		}
+	}	
+
+	model HandScythe
+	{
+		mesh =weapons/1handed/HandScythe,
+		texture = weapons/1handed/HandScythe,	
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 3.0000 180.0000,
+		}
+	}	
+	
+	model HandFile
+	{
+		mesh = weapons/1handed/HandFile,
+		texture = weapons/1handed/HandFile,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1100 0.0000,
+			rotate = 0.0000 90.0000 180.0000,
+		}
+		
+	}		
+
+	model ButterflyKnife
+	{
+		mesh = weapons/1handed/ButterflyKnife,
+		texture = weapons/1handed/ButterflyKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}	
+
+	}	
+
+	model HuntingKnife
+	{
+		mesh = Weapons/1Handed/HuntingKnife,
+		texture = weapons/1handed/HuntingKnife,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}
+	}
+
+	model MilitaryKnife
+	{
+		mesh = weapons/1handed/MilitaryKnife,
+		texture = weapons/1handed/MilitaryKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}	
+
+	}	
+	
+	model CombatKnife
+	{
+		mesh = weapons/1handed/CombatKnife,
+		texture = weapons/1handed/CombatKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}			
+		
+	}
+
+	model CampyKnife
+	{
+		mesh = weapons/1handed/CampyKnife,
+		texture = weapons/1handed/CampyKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}	
+
+	}	
+	
+	model FlintKnife
+	{
+		mesh = weapons/1handed/FlintKnife,
+		texture = weapons/2handed/SpearChippedStone,	
+
+	}
+		
+
+	/******* LONG BLADE *******/	
+
+	model Machete
+	{
+		mesh = weapons/1handed/Machete,
+		texture = weapons/1handed/Machete,
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}
+	}
+
+	model MilitaryMachete
+	{
+		mesh = weapons/1handed/MilitaryMachete,
+		texture = weapons/1handed/MilitaryMachete,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}
+
+	}	
+
+	model HookMachete
+	{
+		mesh = weapons/1handed/HookMachete,
+		texture = weapons/1handed/HookMachete,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}
+
+	}
+
+	model Kukri
+	{
+		mesh = weapons/1handed/Kukri,
+		texture = weapons/1handed/Kukri,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}
+
+	}
+
+	model GardenShearBlade
+	{
+		mesh = weapons/1handed/GardenShearBlade,
+		texture = weapons/1handed/GardenShears,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}
+
+	}
+
+	model GardenShears_Ground
+	{
+		mesh = WorldItems/GardenShears,
+		texture = weapons/1handed/GardenShears,	
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}	
+
+	model GardenScythe
+	{
+		mesh = weapons/2handed/GardenScythe,
+		texture = weapons/2handed/GardenScythe,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}			
+	}	
+	
+	model Katana
+	{
+		mesh = weapons/2handed/Katana,
+		texture = weapons/2handed/Katana,	
+		
+		attachment world
+		{
+			offset = 0.0000 -0.2850 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}	
+
+	/******* SHORT BLUNT *******/
+	
+	model ShortTreeBranch
+	{
+		mesh = weapons/1handed/ShortTreeBranch,
+		texture = WorldItems/TreeBranch,
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+
+	}
+
+	model TreeBranch
+	{
+		mesh = WorldItems/TreeBranch,
+		texture = WorldItems/TreeBranch,
+		scale = 0.5,
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+
+	}
+
+	model MeatTenderizer
+	{
+		mesh = weapons/1handed/MeatTenderizer,
+		texture = weapons/1handed/MeatTenderizer,
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}			
+		
+	}	
+
+	model Hammer
+	{
+		mesh = weapons/1handed/Hammer,
+		texture = weapons/1handed/Hammer,
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 180.0000 180.0000,
+		}			
+		
+	}		
+
+	model BallPeenHammer
+	{
+		mesh = Weapons/1Handed/BallPeenHammer,
+
+		attachment world
+		{
+			offset = 0.0000 -0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model ClubHammer
+	{
+		mesh = Weapons/1Handed/ClubHammer,
+
+		attachment world
+		{
+			offset = 0.0000 -0.1000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}	
+	
+	model HalfPlank
+	{
+		mesh = weapons/1handed/HalfPlank,
+		texture = weapons/1handed/HalfPlank,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}			
+		
+	}	
+
+	model HalfPlankNails
+	{
+		mesh = weapons/1handed/HalfPlankNails,
+		texture = weapons/1handed/HalfPlankNails,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}			
+		
+	}	
+
+	model LShapedLugWrench
+	{
+		mesh = weapons/1handed/LShapedLugWrench,
+		texture = weapons/1handed/LShapedLugWrench,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}	
+
+	model LeadPipeAlt
+	{
+		mesh = weapons/1handed/LeadPipe,
+		texture = weapons/1handed/LeadPipe,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}	
+	
+	model MetalPipeAlt
+	{
+		mesh = weapons/1handed/MetalPipe,
+		texture = weapons/1handed/MetalPipe,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	
+	model MetalBarAlt
+	{
+		mesh = weapons/1handed/MetalBar,
+		texture = weapons/1handed/MetalBar,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}	
+
+	model PipeWrench
+	{
+		mesh = weapons/1handed/PipeWrench,
+		texture = weapons/1handed/PipeWrench,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}			
+	}		
+
+	model Wrench
+	{
+		mesh = weapons/1handed/Wrench,
+		texture = weapons/1handed/Wrench,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}			
+	}
+
+	model WoodenMallet
+	{
+		mesh = weapons/1handed/WoodenMallet,
+		texture = weapons/1handed/WoodenMallet,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1100 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	
+	}	
+
+	/******* LONG BLUNT *******/	
+
+	model GolfClub
+	{
+		mesh = Weapons/1Handed/GolfClub,
+
+		attachment world
+		{
+			offset = 0.0000 0.2900 0.0000,
+			rotate = 0.0000 100.0000 0.0000,
+		}
+	}
+
+	model Rake
+	{
+		mesh = Weapons/2Handed/Rake,
+
+		attachment world
+		{
+			offset = 0.0000 0.3000 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+
+	model Broom
+	{
+		mesh = Weapons/2Handed/Broom,
+
+		attachment world
+		{
+			offset = 0.0000 0.3010 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	
+		model Plank
+	{
+		mesh = weapons/2handed/Plank,
+		texture = weapons/2handed/Plank,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}
+	
+		model PlankNails
+	{
+		mesh = weapons/2handed/PlankNails,
+		texture = weapons/2handed/PlankNails,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+	}	
+
+
+	model Crowbar
+	{
+		mesh = Weapons/1Handed/Crowbar,
+		texture = weapons/1handed/Crowbar,		
+
+		attachment world
+		{
+			offset = 0.0000 -0.1500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}		
+
+		model GardenHoe
+	{
+		mesh = weapons/2handed/GardenHoe,
+		texture = weapons/2handed/GardenHoe,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.3000 0.0000,
+			rotate = -5.0000 270.0000 0.0000,
+		}		
+	}	
+	
+		model SledgeHammer
+	{
+		mesh = weapons/2handed/SledgeHammer,
+		texture = weapons/2handed/SledgeHammer,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = -0.0290 0.2000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}		
+	}	
+
+		model SledgeHammer02
+	{
+		mesh = weapons/2handed/SledgeHammer02,
+		texture = weapons/2handed/SledgeHammer02,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 0.0000 180.0000,			
+			
+		}		
+	}			
+
+	model BaseballBat
+	{
+		mesh = weapons/2handed/BaseballBat,
+		texture = weapons/2handed/BaseballBat,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+	}	
+	
+	model BaseballBatSpiked
+	{
+		mesh = Weapons/2Handed/BaseballBatSpiked,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+	}	
+	
+	model BaseballBatWire
+	{
+		mesh = weapons/2handed/BaseballBatWire,
+		texture = weapons/2handed/BaseballBatWire,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+
+	}	
+	
+	model BaseballBatBarbedWire 
+	{
+		mesh = weapons/2handed/BaseballBatBarbedWire,
+		texture = weapons/2handed/BaseballBatBarbedWire,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+	}		
+
+	model BaseballBatScrews
+	{
+		mesh = weapons/2handed/BaseballBatScrews,
+		texture = weapons/2handed/BaseballBatScrews,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+	}	
+
+	model AluminumBaseballBat
+	{
+		mesh = weapons/2handed/BaseballBat,
+		texture = weapons/2handed/AluminumBaseballBat,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+	}
+	
+	model LongLeadPipe
+	{
+		mesh = weapons/2handed/LongLeadPipe,
+		texture = weapons/2handed/LongLeadPipe,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+
+
+	}	
+
+	model LongMetalPipe
+	{
+		mesh = weapons/2handed/LongMetalPipe,
+		texture = weapons/2handed/LongMetalPipe,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+
+
+	}
+
+	model LongMetalBar
+	{
+		mesh = weapons/2handed/LongMetalBar,
+		texture = weapons/2handed/LongMetalBar,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.2000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}	
+
+
+	}		
+	
+	/******* SPEARS *******/
+	
+	model ShovelSpear
+	{
+		mesh = weapons/2handed/ShovelSpear,
+		texture = weapons/2handed/ShovelSpear,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}			
+		
+	}	
+
+	model Shovel2Spear
+	{
+		mesh = weapons/2handed/Shovel2Spear,
+		texture = weapons/2handed/Shovel2Spear,	
+		scale = 1,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}			
+		
+	}	
+
+	/*** Branch Spears ***/
+
+	model SpearIcePick
+	{
+		mesh = Weapons/2Handed/SpearIcePick,
+
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+
+	model SpearScrewdriver
+	{
+		mesh = Weapons/2Handed/SpearScrewdriver,
+
+		attachment world
+		{
+			offset = -0.0100 0.2850 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	
+	model SpearChippedStone
+	{
+		mesh = weapons/2handed/SpearChippedStone,
+		texture = weapons/2handed/SpearChippedStone,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}		
+		
+	}		
+
+	model SpearGardenShearBlade
+	{
+		mesh = weapons/2handed/SpearGardenShearBlade,
+		texture = weapons/2handed/SpearGardenShearBlade,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+
+	}
+
+	model SpearMilitaryKnife
+	{
+		mesh = weapons/2handed/SpearMilitaryKnife,
+		texture = weapons/2handed/SpearMilitaryKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+
+	}
+
+	model SpearCombatKnife
+	{
+		mesh = weapons/2handed/SpearCombatKnife,
+		texture = weapons/2handed/SpearCombatKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+
+	}		
+
+	model SpearCampyKnife
+	{
+		mesh = weapons/2handed/SpearCampyKnife,
+		texture = weapons/2handed/SpearCampyKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+
+	}	
+
+	model SpearSharpTrowel
+	{
+		mesh = weapons/2handed/SpearSharpTrowel,
+		texture = weapons/2handed/SpearSharpTrowel,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 -90.0000 0.0000,
+		}	
+
+	}	
+	
+	model SpearButterflyKnife
+	{
+		mesh = weapons/2handed/SpearButterflyKnife,
+		texture = weapons/2handed/SpearButterflyKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}
+
+	model SpearKukri
+	{
+		mesh = weapons/2handed/SpearKukri,
+		texture = weapons/2handed/SpearKukri,	
+		scale = 1,
+		attachment world
+		{
+			offset = -0.0100 0.3400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,	
+		}			
+	}	
+
+	model SpearMilitaryMachete
+	{
+		mesh = weapons/2handed/SpearMilitaryMachete,
+		texture = weapons/2handed/SpearMilitaryMachete,	
+		scale = 1,
+		attachment world
+		{
+			offset = -0.0100 0.3400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,	
+		}			
+	}		
+
+	/*** Plank Spears ***/
+
+	model PlankSpear
+	{
+		mesh = weapons/2handed/PlankSpear,
+		texture = weapons/2handed/PlankSpear,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}
+
+	model PlankSpearGardenShearBlade
+	{
+		mesh = weapons/2handed/PlankSpearGardenShearBlade,
+		texture = weapons/2handed/PlankSpearGardenShearBlade,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+
+	}
+
+	model PlankSpearMilitaryKnife
+	{
+		mesh = weapons/2handed/PlankSpearMilitaryKnife,
+		texture = weapons/2handed/PlankSpearMilitaryKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}		
+
+	model PlankSpearCombatKnife
+	{
+		mesh = weapons/2handed/PlankSpearCombatKnife,
+		texture = weapons/2handed/PlankSpearCombatKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}		
+
+	model PlankSpearCampyKnife
+	{
+		mesh = weapons/2handed/PlankSpearCampyKnife,
+		texture = weapons/2handed/PlankSpearCampyKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}		
+
+	model PlankSpearHuntingKnife
+	{
+		mesh = weapons/2handed/PlankSpearHuntingKnife,
+		texture = weapons/2handed/PlankSpearHuntingKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}	
+	
+	model PlankSpearIcePick	
+	{
+		mesh = weapons/2handed/PlankSpearIcePick,
+		texture = weapons/2handed/PlankSpearIcePick,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}	
+
+	model PlankSpearKnife
+	{
+		mesh = weapons/2handed/PlankSpearKnife,
+		texture = weapons/2handed/PlankSpearKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}	
+
+	model PlankSpearScrewdriver
+	{
+		mesh = weapons/2handed/PlankSpearScrewdriver,
+		texture = weapons/2handed/PlankSpearScrewdriver,	
+		scale = 1,
+		attachment world
+		{
+			offset = -0.0100 0.2850 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}	
+
+	model PlankSpearBreadKnife
+	{
+		mesh = weapons/2handed/PlankSpearBreadKnife,
+		texture = weapons/2handed/PlankSpearBreadKnife,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}	
+
+	model PlankSpearHandFork
+	{
+		mesh = weapons/2handed/PlankSpearHandFork,
+		texture = weapons/2handed/PlankSpearHandFork,	
+		scale = 1,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}			
+		
+	}	
+
+	model PlankSpearSharpTrowel
+	{
+		mesh = weapons/2handed/PlankSpearSharpTrowel,
+		texture = weapons/2handed/PlankSpearSharpTrowel,	
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0000 0.3350 0.0050,
+			rotate = 0.0000 -90.0000 0.0000,
+		}	
+	}	
+
+	model PlankSpearMachete
+	{
+		mesh = weapons/2handed/PlankSpearMachete,
+		texture = weapons/2handed/PlankSpearMachete,	
+		scale = 1,
+		attachment world
+		{
+			offset = -0.0100 0.3400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+	}	
+
+	model PlankSpearKukri
+	{
+		mesh = weapons/2handed/PlankSpearKukri,
+		texture = weapons/2handed/PlankSpearKukri,	
+		scale = 1,
+		attachment world
+		{
+			offset = -0.0100 0.3400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,	
+		}			
+	}	
+
+	model PlankSpearMilitaryMachete
+	{
+		mesh = weapons/2handed/PlankSpearMilitaryMachete,
+		texture = weapons/2handed/PlankSpearMilitaryMachete,	
+		scale = 1,
+		attachment world
+		{
+			offset = -0.0100 0.3400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+	}	
+
+
+	/*** ITEMS ***/
+
+	model Mop
+	{
+		mesh = WorldItems/Mop,
+		texture = WorldItems/Mop,
+		scale = 0.45,		
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model GardenSawGround
+	{
+		mesh = WorldItems/GardenSaw,
+		texture = GardenSaw,
+		scale = 0.45,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 180.0000 180.0000,
+		}
+	}
+
+	model HacksawGround
+	{
+		mesh = WorldItems/Hacksaw,
+		texture = Hacksaw,
+		scale = 0.45,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 180.0000 180.0000,
+		}
+	}
+
+	model GardenSaw
+	{
+		mesh = GardenSaw,
+		texture = GardenSaw,	
+
+		attachment world
+		{
+			offset = 0.0000 0.2350 0.0150,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model Hacksaw
+	{
+		mesh = Hacksaw,
+		texture = Hacksaw,		
+
+		attachment world
+		{
+			offset = 0.0000 0.1750 0.0150,
+			rotate = 180.0000 0.0000 -90.0000,
+		}
+	}
+	
+	model FryingPan
+	{
+		mesh = Weapons/1Handed/FryingPan,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -135.0000 0.0000,
+		}
+	}
+	model GridlePan
+	{
+		mesh = Weapons/1Handed/GridlePan,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -135.0000 0.0000,
+		}
+	}
+	
+	model GriddlePanFriedVegetables_Ground
+    {
+        mesh = WorldItems/GriddlePanFriedVegetables,
+        texture = WorldItems/GriddlePanFriedVegetables,
+    }
+	model GriddlePanFriedVegetables_GroundRotten
+    {
+        mesh = WorldItems/GriddlePanFriedVegetables,
+        texture = WorldItems/GriddlePanFriedVegetablesRotten,
+    }
+	model PanFriedVegetables_Ground
+    {
+        mesh = WorldItems/PanFriedVegetables,
+        texture = WorldItems/PanFriedVegetables,
+    }
+	model PanFriedVegetables_GroundRotten
+    {
+        mesh = WorldItems/PanFriedVegetables,
+        texture = WorldItems/PanFriedVegetablesRotten,
+    }
+
+
+
+
+}

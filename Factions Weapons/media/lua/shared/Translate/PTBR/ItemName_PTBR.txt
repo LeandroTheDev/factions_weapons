@@ -1,0 +1,316 @@
+ItemName_PTBR = {
+    	ItemName_Base.AK47 = "Fuzil de assalto AK47",
+	ItemName_Base.AK47Unfolded = "Rifle de assalto AK47",
+	ItemName_Base.AK47Folded = "Rifle de assalto AK47",
+
+	ItemName_Base.SKS = "Rifle SKS",
+	ItemName_Base.SKSSpiker = "Rifle SKS-45",
+	ItemName_Base.SKSSpikerBayonet = "Rifle SKS-45",
+
+	ItemName_Base.Mini14 = "Rifle Mini-14",
+	ItemName_Base.Mini14Unfolded = "Rifle Mini-14",
+	ItemName_Base.Mini14Folded = "Rifle Mini-14",
+
+	ItemName_Base.HuntingRifle = "Rifle R788",
+	ItemName_Base.VarmintRifle = "Rifle R700",
+	ItemName_Base.SniperRifle = "Rifle de precisão M24",
+
+	ItemName_Base.LeverRifle = "Carabina W1866",
+
+	ItemName_Base.1022 = "Rifle R1022",
+
+	ItemName_Base.Spas12 = "Espingarda SPAS-12",
+	ItemName_Base.Spas12Folded = "Espingarda SPAS-12",
+
+	ItemName_Base.Shotgun = "Espingarda M500",
+	ItemName_Base.Shotgun2 = "Espingarda M590",
+	ItemName_Base.Shotgun2Bayonet = "Espingarda M590",
+	ItemName_Base.ShotgunSemi = "Escopeta R1187",
+	ItemName_Base.ShotgunSemi2 = "Escopeta R1187",
+
+	ItemName_Base.ShotgunSawnoff = "Espingarda serrada M500",
+	ItemName_Base.ShotgunSawnoffNoStock = "Espingarda serrada M500",
+
+	ItemName_Base.DoubleBarrelShotgun = "Espingarda de cano duplo",
+    ItemName_Base.DoubleBarrelShotgunSawnoff = "Espingarda de cano duplo serrada",
+	ItemName_Base.DoubleBarrelShotgunSawnoffNoStock = "Espingarda de cano duplo serrada",
+
+	ItemName_Base.Revolver_Short = "Revólver M10-5",
+	ItemName_Base.Revolver_Long = "Revólver Magnum M29",
+
+	ItemName_Base.Pistol3 = "Pistola DE",
+	ItemName_Base.Tec9 = "Pistola TEC9",
+	ItemName_Base.Glock = "Pistola G17",
+	ItemName_Base.Glock18 = "Pistola G18",
+	ItemName_Base.P229 = "Pistola P229",
+	ItemName_Base.CZ75 = "Pistola CZ 75",
+
+	ItemName_Base.MP5 = "Submetralhadora MP5",
+	ItemName_Base.MP5SD = "Submetralhadora MP5SD",
+	ItemName_Base.MP5Unfolded = "Submetralhadora MP5",
+	ItemName_Base.MP5Folded = "Submetralhadora MP5",
+	ItemName_Base.MAC10Unfolded = "Submetralhadora M10",
+	ItemName_Base.MAC10Folded = "Submetralhadora M10",
+
+	ItemName_Base.CAR15 = "Rifle de assalto CAR-15",
+	ItemName_Base.CAR15Folded = "Rifle de assalto CAR-15",
+	ItemName_Base.CAR15D = "Rifle de assalto CAR-15 Delta",
+	ItemName_Base.CAR15DFolded = "Rifle de assalto CAR-15 Delta",
+
+	ItemName_Base.AssaultRifleBayonet = "Rifle de assalto M16",
+	ItemName_Base.M16Bayonet = "Baioneta M9",
+
+	ItemName_Base.FAL = "Rifle de Batalha FAL",
+	ItemName_Base.FALClassic = "Rifle de Batalha FAL",
+
+	ItemName_Base.AssaultRifle2 = "Rifle de Batalha M14",
+	ItemName_Base.AssaultRifleM1 = "Rifle M1",
+
+	/*Muniç?o*/
+	ItemName_Base.762Box = "Caixa de 7,62 Rodadas",
+	ItemName_Base.762Bullets = "7,62 rodadas",
+
+	ItemName_Base.22Box = "Caixa de 0,22 Rodadas",
+	ItemName_Base.22Bullets = ".22 Rodadas",
+
+	/*Revistas*/
+	ItemName_Base.762Clip = "Clipe AK47",
+	ItemName_Base.223Clip20 = "Clipe Mini-14",
+
+	ItemName_Base.9mmClip20 = "Clipe TEC9",
+	ItemName_Base.9mmClip30 = "Clipe MP5",
+	ItemName_Base.45Clip32 = "Clipe M10",
+	ItemName_Base.45Clip12 = "Clipe MK23",
+
+	ItemName_Base.22ClipRifle = "Clipe R1022",
+
+	ItemName_Base.9mmClip = "Clipe M9",
+	ItemName_Base.44Clip = "Clipe DE",
+	ItemName_Base.45Clip = "Clipe M1911",
+	ItemName_Base.308Clip = "Clipe R788",
+	ItemName_Base.556Clip = "Clipe M16",
+	ItemName_Base.M14Clip = "Clipe M14",
+	ItemName_Base.FALClip = "Clipe FAL",
+	ItemName_Base.9mmClip16 = "Clipe CZ 75",
+	ItemName_Base.9mmClip17 = "Clipe G17",
+
+	/*Anexos*/
+	ItemName_Base.Bipod = "Bipé",
+	ItemName_Base.IronSight = "Mira de Ferro Melhorada",
+	ItemName_Base.ShellHolder = "Portador de Concha",
+	ItemName_Base.Coupled556 = "5,56 Clipes acoplados",
+	ItemName_Base.Coupled762 = "7,62 Clipes acoplados",
+	ItemName_Base.x2Scope_Fake = "Escopo x2",
+    ItemName_Base.x4Scope_Fake = "Escopo x4",
+    ItemName_Base.x8Scope_Fake = "Escopo x8",
+	ItemName_Base.Sling = "Tilinda de Couro",
+	ItemName_Base.Sling2 = "Funda de nylon",
+
+	/*Unid*/
+	ItemName_Base.CleaningKit = "Kit de limpeza de armas",
+	ItemName_Base.FireKlean = "Lubrificante para armas FireKlean",
+
+	/*Caixas de armas*/
+	ItemName_Base.VFERifleCase1 = "Caixa de arma",
+	ItemName_Base.VFERifleCase2 = "Caixa de arma",
+	ItemName_Base.VFERifleCase3 = "Caixa de arma",
+	ItemName_Base.VFERifleCase4 = "Caixa de arma",
+	ItemName_Base.VFERifleCase5 = "Caixa de arma",
+	ItemName_Base.VFERifleCase6 = "Caixa de arma",
+	ItemName_Base.VFERifleCase7 = "Caixa de arma",
+	ItemName_Base.VFERifleCase8 = "Caixa de arma",
+	ItemName_Base.VFERifleCase9 = "Caixa de arma",
+	ItemName_Base.VFEShotgunCase1 = "Caixa de arma",
+	ItemName_Base.VFEShotgunCase2 = "Caixa de arma",
+	ItemName_Base.VFEShotgunCase3 = "Caixa de arma",
+	ItemName_Base.VFEPistolCase1 = "Caixa de arma",
+	ItemName_Base.VFEPistolCase2 = "Caixa de arma",
+	ItemName_Base.VFEPistolCase3 = "Caixa de arma",
+
+	/*Itens falsos para anexos*/
+	ItemName_Base.FakeItemSling = "todas as armas longas.",
+	ItemName_Base.FakeItemSights = "todas as armas.",
+
+	ItemName_Base.SilencerMountOn = "Maioria das Armas.",
+	ItemName_Base.Silencer = "Silenciador",
+
+ItemName_Base.WoodAxe = "Machado de Lenhador",
+	ItemName_Base.Axe = "Machado de Fogo",
+	ItemName_Base.HandAxe = "Machado de mao",
+
+	ItemName_Base.Shovel = "Pa",
+	ItemName_Base.Shovel2 = "Pa Quadrada",
+
+	ItemName_Base.TreeBranch = "Galho Grande",
+
+	ItemName_Base.Sledgehammer = "Marreta",
+	ItemName_Base.Sledgehammer2 = "Marreta com Cabo Longo",
+
+	ItemName_Base.HandScythe = "Foice de Mao",
+
+	ItemName_Base.SpearCrafted = "Lanca Artesanal",
+
+	/*** Other Items ***/
+	ItemName_SOMW.GardenShears = "Tesoura de jardim",
+
+	/*** Short Blunt ***/
+	ItemName_SOMW.LShapedLugWrench = "Chave Biela",
+	ItemName_SOMW.ShortTreeBranch = "Galho Pequeno",
+	ItemName_SOMW.HalfPlank = "Meia Tabua",
+	ItemName_SOMW.HalfPlankNails = "Meia Tabua com Pregos",
+	ItemName_SOMW.MeatTenderizer = "Amaciante de carne",
+	ItemName_SOMW.FireplacePoker = "Pôquer Lareira",
+
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "Taco de Beisebol de Alumínio",
+	ItemName_SOMW.BaseballBatWire = "Taco de Beisebol com Arame",
+	ItemName_SOMW.BaseballBatBarbedWire = "Taco de Beisebol com Arame Farpado",
+	ItemName_SOMW.BaseballBatScrews = "Taco de Beisebol com Parafusos",
+
+	ItemName_SOMW.WalkingCane = "Bengala",
+
+	ItemName_SOMW.LongLeadPipe = "Tubo de Chumbo Longo",
+	ItemName_SOMW.LongMetalPipe = "Tubo de Metal Longo",
+	ItemName_SOMW.LongMetalBar = "Barra de Metal Longa",
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "Lima de Ferro",
+	ItemName_SOMW.MilitaryKnife = "Faca Tatica Militar",
+	ItemName_SOMW.CombatKnife = "Faca de Combate",
+	ItemName_SOMW.CampyKnife = "Faca de Camping",
+	ItemName_SOMW.ButterflyKnife = "Canivete Butterfly",
+	ItemName_SOMW.SharpTrowel = "Espatula Afiada",
+
+	/*** Long Blade ***/
+	ItemName_SOMW.GardenScythe = "Foice de Jardinagem",
+	ItemName_SOMW.MilitaryMachete = "Machete Tatico Militar",
+	ItemName_SOMW.HookMachete = "Machete de Gancho",
+	ItemName_SOMW.GardenShearBlade = "Lâmina de tesoura de jardim",
+	ItemName_SOMW.Kukri = "Kukri",
+
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "Machado de Gelo",
+	ItemName_SOMW.AxeHammer = "Machado de Telhado",
+	ItemName_SOMW.UniAxe = "Machado de Carpinteiro",
+	ItemName_SOMW.CampingHatchet = "Machadinha de Camping",
+	ItemName_SOMW.EntrenchingShovel = "Pa de Trincheira",
+
+	ItemName_SOMW.ShovelAxe = "Machado Artesanal de Metal",
+	ItemName_SOMW.Shovel2Axe = "Machado Artesanal de Metal",
+
+	/*** Spears ***/
+	ItemName_SOMW.ShovelSpear = "Lanca Artesanal de Metal",
+	ItemName_SOMW.Shovel2Spear = "Lanca Artesanal de Metal",
+
+	ItemName_SOMW.SpearChippedStone = "Lanca de Pedra",
+
+	ItemName_SOMW.SpearCampyKnife = "Lanca com Faca de Camping",
+	ItemName_SOMW.SpearMilitaryKnife = "Lanca com Faca Tatica Militar",
+	ItemName_SOMW.SpearCombatKnife = "Lanca com Faca de Combate",
+	ItemName_SOMW.SpearMilitaryMachete = "Lanca com Machete Tatico Militar",
+	ItemName_SOMW.SpearSharpTrowel = "Lanca com Faca Espatula Afiada",
+	ItemName_SOMW.SpearGardenShearBlade = "Lanca com Lâmina de tesoura de jardim",
+    ItemName_SOMW.SpearKukri = "Lanca com Kukri",
+
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "Lanca Artesanal",
+	ItemName_SOMW.PlankSpearKnife = "Lanca com Faca",
+	ItemName_SOMW.PlankSpearBreadKnife = "Lanca com Faca de Pao",
+	ItemName_SOMW.PlankSpearHuntingKnife = "Lanca com Faca de Caca",
+	ItemName_SOMW.PlankSpearIcePick = "Lanca com Picador de Gelo",
+	ItemName_SOMW.PlankSpearHandFork = "Lanca com Garfo de Jardinagem",
+	ItemName_SOMW.PlankSpearScrewdriver = "Lanca com Chave de Fenda",
+	ItemName_SOMW.PlankSpearCampyKnife = "Lanca com Faca de Camping",
+	ItemName_SOMW.PlankSpearMilitaryKnife = "Lanca com Faca Tatica Militar",
+	ItemName_SOMW.PlankSpearCombatKnife = "Lanca com Faca de Combate",
+	ItemName_SOMW.PlankSpearMachete = "Lanca com Machete",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "Lanca com Machete Tatico Militar",
+	ItemName_SOMW.PlankSpearSharpTrowel = "Lanca com Faca Espatula Afiada",
+	ItemName_SOMW.PlankSpearGardenShearBlade = "Lanca com Lâmina de tesoura de jardim",
+    ItemName_SOMW.PlankSpearKukri = "Lanca com Kukri",
+
+
+	ItemName_Base.Oiler = "Lubrificador",
+     ItemName_Base.RUSCleanKitMakarov = "Kit de reparo (9×18)",
+     ItemName_Base.RUSCleanKitPKM = "Kit de reparo (7,62×54R)",
+     ItemName_Base.RUSCleanKitAKS = "Kit de reparo (5,45×39)",
+     ItemName_Base.RUSCleanKitAKM = "Kit de reparo (7,62×39)",
+     ItemName_Base.RUSCleanKitSG = "Kit de reparo (12g)",
+     ItemName_Base.RUSCrate_Ammunition545 = "Caixa de Munição (5,45×39)",
+     ItemName_Base.RUSCrate_Ammunition762AK = "Caixa de Munição (7,62×39)",
+     ItemName_Base.RUSCrate_Ammunition762PKM = "Caixa de Munição (7,62×54R)",
+     ItemName_Base.RUSCrate_Ammunition939 = "Caixa de Munição (9×39)",
+     ItemName_Base.RUSCanned545 = "Munição enlatada 5,45×39",
+     ItemName_Base.RUSCanned762AK = "Munição enlatada 7,62×39",
+     ItemName_Base.RUSCanned762PKM = "Munição enlatada 7,62×54R",
+     ItemName_Base.RUSCanned939 = "Munição 9×39 enlatada",
+     ItemName_Base.RUSCannedAmmoOpen = "Lata de munição vazia",
+     ItemName_Base.RUSPUScope = "Escopo PU",
+     ItemName_Base.RUSPSOScope = "Escopo PSO-1",
+     ItemName_Base.RUSPBS1suppressor = "Supressor PBS-1",
+     ItemName_Base.RUSPBS4suppressor = "Supressor PBS-4",
+     ItemName_Base.RUSAPBsuppressor = "Supressor APB",
+     ItemName_Base.RUSTrenchShovel = "Pá de trincheira",
+     ItemName_Base.RUSScoutKnife = "Faca de Escoteiro",
+     ItemName_Base.RUSBayonetKnife = "Baioneta 6H4",
+     ItemName_Base.RUSTaigaMachete = "Taiga-1 Facão",
+     ItemName_Base.RUSTaigaMacheteArmy = "Taiga-1 Facão",
+     ItemName_Base.RUSShashkaGoldBrown = "Espada Cossaca",
+     ItemName_Base.RUSShashkaGoldBlack = "Espada Cossaca",
+     ItemName_Base.RUSShashkaSilverBrown = "Espada Cossaca",
+     ItemName_Base.RUSShashkaSilverBlack = "Espada Cossaca",
+     ItemName_Base.RUSPistol = "Pistola PM",
+     ItemName_Base.RUSPBpistol = "Pistola PB",
+     ItemName_Base.RUSPistol2 = "Pistola Tokarev TT-33",
+     ItemName_Base.RUSPistol3 = "Pistola-máquina APS Stechkin",
+     ItemName_Base.RUSAPBPistol = "Pistola automática APB Stechkin",
+     ItemName_Base.RUSRevolver_Long = "Revólver M1895 Nagant",
+     ItemName_Base.RUSPPShsmg = "Submetralhadora PPSh-41",
+     ItemName_Base.RUSPPSsmg = "Submetralhadora PPS-43",
+     ItemName_Base.RUSPPSsmg_folded = "Submetralhadora PPS-43",
+     ItemName_Base.RUSMP40smg = "Submetralhadora MP 40",
+     ItemName_Base.RUSMP40smg_Folded = "Submetralhadora MP 40",
+     ItemName_Base.RUSAKSURifle = "Submetralhadora AKS-74U",
+     ItemName_Base.RUSAKSURifle_Folded = "Submetralhadora AKS-74U",
+     ItemName_Base.RUSVeprKM = "Rifle Molot Vepr-KM",
+     ItemName_Base.RUSAKM = "Rifle AKM",
+     ItemName_Base.RUSAKMS = "Rifle AKMS",
+     ItemName_Base.RUSAKMS_Folded = "Rifle AKMS",
+     ItemName_Base.RUSAssaultRifle = "Rifle AK-74",
+     ItemName_Base.RUSAKS74Rifle = "Rifle AKS-74",
+     ItemName_Base.RUSAKS74Rifle_Folded = "Rifle AKS-74",
+     ItemName_Base.RUSAK74MRifle = "Rifle AK-74M",
+     ItemName_Base.RUSAK74MRifle_Folded = "Rifle AK-74M",
+     ItemName_Base.RUSVarmintRifle = "Rifle TOZ-78",
+     ItemName_Base.RUSHuntingRifle = "Rifle KO-44",
+     ItemName_Base.RUSMosin = "Rifle Mosin-Nagant",
+     ItemName_Base.RUSMosinSawnoff = "Rifle Mosin-Nagant serrado",
+     ItemName_Base.RUSAssaultRifle2 = "Rifle SKS",
+     ItemName_Base.RUSSVTrifle = "Rifle SVT-40",
+     ItemName_Base.RUSSVDRifle = "Rifle SVD",
+     ItemName_Base.RUSVSSrifle = "Rifle VSS 'Vintorez'",
+     ItemName_Base.RUSASValrifle = "Rifle AS 'Val'",
+     ItemName_Base.RUSASValrifle_Folded = "Rifle AS 'Val'",
+     ItemName_Base.RUSShotgun = "Carabina de espingarda KS-23",
+     ItemName_Base.RUSShotgunSawnoff = "Carabina de espingarda KS-23 serrada",
+     ItemName_Base.RUSTOZ34Shotgun = "Escopeta TOZ-34",
+     ItemName_Base.RUSTOZ34ShotgunSawnoff = "Espingarda TOZ-34 serrada",
+     ItemName_Base.RUSIzhRifle = "Espingarda MP-18",
+     ItemName_Base.RUSIzhRifleSawnoff = "Espingarda MP-18 serrada",
+     ItemName_Base.RUSDoubleBarrelShotgun = "Espingarda MP-43",
+     ItemName_Base.RUSDoubleBarrelShotgunSawnoff = "Espingarda MP-43 serrada",
+     ItemName_Base.RUSPKMmg = "Metralhadora PKM",
+
+	ItemName_Base.9mmPistolClip8 = "9mm Clipe Tipo-8",
+    ItemName_Base.9mmPistolClip20 = "9mm Clipe Tipo-20",
+    ItemName_Base.9mmSubClip32 = "9mm Clipe Tipo-32",
+    ItemName_Base.762PistolClip8 = "7.62 Clipe Tipo-8",
+    ItemName_Base.762PistolClip10 = "7.62 Clipe Tipo-10",
+    ItemName_Base.762RifleClip30 = "7.62 Clipe Tipo-30",
+    ItemName_Base.762PistolClip35 = "7.62 Clipe Tipo-35",
+    ItemName_Base.762MachineClip71 = "7.62 Clipe Tipo-71",
+    ItemName_Base.556PistolClip10 = ".556 Clipe Tipo-10",
+    ItemName_Base.556RifleClip30 = ".556 Clipe Tipo-30",
+    ItemName_Base.22RifleClip5 = ".22 Clipe Tipo-5",
+    ItemName_Base.22RifleClip10 = ".22 Clipe Tipo-10",
+}

@@ -1,0 +1,688 @@
+   module Base
+{
+
+    imports    
+    {
+		Base
+	}
+   
+	
+	model Bullets9mm
+    {
+        mesh = weapons/ammo/9-45Ammo,
+		texture = weapons/ammo/38-9Ammo,
+		scale = 0.33,
+    }
+	
+	model Bullets22lr
+    {
+        mesh = weapons/ammo/38-44Ammo,
+		texture = weapons/ammo/22Ammo,
+		scale = 0.35,
+    }
+	
+	model Bullets45
+    {
+        mesh = weapons/ammo/9-45Ammo,
+		texture = weapons/ammo/45Ammo,
+		scale = 0.35,
+    }
+	
+	model Bullets44
+    {
+        mesh = weapons/ammo/38-44Ammo,
+		texture = weapons/ammo/44Ammo,
+		scale = 0.55,
+		
+    }
+	
+	model Bullets38
+    {
+        mesh = weapons/ammo/38-44Ammo,
+		texture = weapons/ammo/45Ammo,
+		scale = 0.48,
+		
+    }
+	
+	model ShotgunShells
+    {
+        mesh = weapons/ammo/ShotgunShells,
+		texture = weapons/ammo/ShotgunShells,
+		scale = 0.6,
+		
+    }
+	
+	model 762Bullets
+    {
+        mesh = weapons/ammo/762-556-308-223Ammo,
+		texture = weapons/ammo/762Ammo,
+		scale = 0.71,
+		
+    }
+	
+	model 308Bullets
+    {
+        mesh = weapons/ammo/762-556-308-223Ammo,
+		texture = weapons/ammo/308Ammo,
+		scale = 0.7,
+		
+    }
+	
+	model 556Bullets
+    {
+        mesh = weapons/ammo/762-556-308-223Ammo,
+		texture = weapons/ammo/556Ammo,
+		scale = 0.7,
+	}	
+	
+	model 223Bullets
+    {
+        mesh =    weapons/ammo/762-556-308-223Ammo,
+		texture = weapons/ammo/223Ammo,
+		scale = 0.6,
+    }	
+	
+	model 556Box
+    {
+        mesh = weapons/ammo/762-556-308-223AmmoBox,
+		texture = weapons/ammo/556AmmoBox,
+		scale = 0.7,
+    }	
+	
+	model 223Box
+    {
+        mesh = weapons/ammo/762-556-308-223AmmoBox,
+		texture = weapons/ammo/223AmmoBox,
+		scale = 0.7,
+    }	
+	
+	model 308Box
+    {
+        mesh = weapons/ammo/762-556-308-223AmmoBox,
+		texture = weapons/ammo/308AmmoBox,
+		scale = 0.7,
+		
+    }	
+	model 762Box
+    {
+        mesh = weapons/ammo/762-556-308-223AmmoBox,
+		texture = weapons/ammo/762AmmoBox,
+		scale = 0.7,
+		
+    }
+	
+	model Magazine_9mm
+	{
+		mesh = Weapons/ammo/Magazine_9mm,
+		texture = WorldItems/Magazine_9mm,
+		scale = 0.8,
+	}
+
+	model Magazine_45
+	{
+		mesh = Weapons/ammo/Magazine_45,
+		texture = WorldItems/Magazine_45,
+		scale = 0.8,
+	}
+
+	model Magazine_44
+	{
+		mesh = Weapons/ammo/Magazine_44,
+		texture = WorldItems/Magazine_44,
+		scale = 0.8,
+	}
+
+	model Magazine_M16
+	{
+		mesh = Weapons/ammo/Magazine_M16,
+		texture = Weapons/Firearm/AssaultRifle,
+		scale = 10
+	}
+
+	model Magazine_M14
+	{
+		mesh = Weapons/ammo/Magazine_M14,
+		texture = WorldItems/Magazine_M14,
+		scale = 0.65,
+	}
+	
+	model Magazine_FAL
+	{
+		mesh = Weapons/ammo/Magazine_FAL,
+		texture = WorldItems/Magazine_FAL,
+	}
+
+	model Magazine_223
+	{
+		mesh = Weapons/ammo/Magazine_CZ527,
+		texture = Weapons/Firearm/cz527_texture,
+	}
+	
+	model Magazine_Tec9
+	{
+		mesh = Weapons/ammo/Magazine_Tec9,
+		texture = Weapons/Firearm/tec9_texture,
+	}
+	
+	model Magazine_MAC10
+	{
+		mesh = Weapons/ammo/Magazine_MAC10,
+		texture = Weapons/Firearm/mac10_texture,
+	}
+	
+	model Magazine_MINI14
+	{
+		mesh = Weapons/ammo/Magazine_MINI14,
+		texture = Weapons/Firearm/mini14_solid_texture,
+	}
+	
+	model Magazine_MP5
+	{
+		mesh = Weapons/ammo/mp5_magazine,
+		texture = Weapons/Firearm/mp5_texture,
+	}
+	
+	model Magazine_1022
+	{
+		mesh = Weapons/ammo/1022magazine,
+		texture = Weapons/Firearm/1022_texture,
+	}
+	
+	model Magazine_glock
+	{
+		mesh = Weapons/ammo/Magazine_9mm,
+		texture = WorldItems/Magazine_9mm,
+		scale = 0.8,
+	}
+
+	model Magazine_308
+	{
+		mesh = Weapons/ammo/Magazine_308,
+		texture = WorldItems/Magazine_223_308,
+		scale = 0.70,
+	}
+	
+	model Magazine_AK47
+	{
+		mesh = Weapons/ammo/Magazine_AK47,
+		texture = Weapons/firearm/ak47_solid_texture,
+	}
+
+	model x2Scope
+    {
+        mesh = Weapons/parts/Rifle_2XScope,
+        texture = Weapons/parts/Acog_Scope,
+    }
+	
+	model M14x2Scope
+    {
+        mesh = Weapons/parts/M14_2XScope,
+        texture = Weapons/parts/Acog_Scope,
+    }
+
+	model x4Scope
+    {
+        mesh = Weapons/parts/Rifle_4XScope,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	
+	model Leverx4Scope
+    {
+        mesh = Weapons/parts/Lever_4XScope,
+        texture = weapons/firearm/yellowboy_texture,
+    }
+	
+	model M14x4Scope
+    {
+        mesh = Weapons/parts/M14_4XScope,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	
+	model PSO1x4Scope
+    {
+        mesh = Weapons/parts/PSO1_4XScope,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	
+	model x8Scope
+    {
+        mesh = Weapons/parts/Rifle_8XScope,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	
+	model M14x8Scope
+    {
+        mesh = Weapons/parts/M14_8XScope,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	
+	model x2Scope_Ground
+    {
+        mesh = WorldItems/2XScope_Ground,
+        texture = Weapons/parts/Acog_Scope,
+    }
+	
+	model x4Scope_Ground
+    {
+        mesh = WorldItems/4xscope_ground,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	
+	model x8Scope_Ground
+    {
+        mesh = WorldItems/8xscope_ground,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	model Bipod
+    {
+        mesh = Weapons/parts/Bipod_Model,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	model Bipod_Ground
+    {
+        mesh = WorldItems/bipod_ground,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	model RedDot
+	{
+	    mesh = Weapons/parts/AimPoint,
+	    texture = Weapons/parts/Aimpoint,
+	}
+	
+	model M14RedDot
+	{
+	    mesh = Weapons/parts/M14_AimPoint,
+	    texture = Weapons/parts/Aimpoint,
+	}
+	
+	model RedDot_Ground
+	{
+	    mesh = WorldItems/AimPoint_Ground,
+	    texture = Weapons/parts/Aimpoint,
+	}
+	
+	model FiberglassStock_Ground
+    {
+        mesh = WorldItems/fiberglassstock_ground,
+        texture = WorldItems/FiberglassStock_texture,
+    }
+	
+	model ImprovedIrons_Ground
+    {
+        mesh = WorldItems/improvedirons_ground,
+        texture = WorldItems/ImprovedIrons_texture,
+    }
+	
+	model M24_Sights
+	{
+		mesh = weapons/parts/m24_sights,
+		texture = weapons/firearm/m24_texture,
+	}
+	
+	model LaserOn
+	{
+		mesh = Weapons/parts/Handgun_Laser_On,
+		texture = Weapons/parts/Handgun_Laser,
+	}
+
+	model ShellHolder
+	{
+	    mesh = Weapons/parts/shellholder_model,
+	    texture = Weapons/parts/shellholder_texture,
+	}
+	
+	model ShellHolder_Ground
+    {
+        mesh = WorldItems/shellholder_ground,
+        texture = Weapons/parts/shellholder_texture,
+    }
+
+	model BulletLoops
+	{
+	    mesh = Weapons/parts/bulletloop_model,
+	    texture = Weapons/parts/bulletloop_texture,
+	}
+	
+	model BulletLoops_Ground
+	{
+	    mesh = WorldItems/bulletloop_ground,
+	    texture = Weapons/parts/bulletloop_texture,
+	}
+
+	model Coupled556
+	{
+	    mesh = Weapons/parts/coupled556_model,
+	    texture = Weapons/parts/coupled556_texture,
+	}
+	
+	model Coupled556_Ground
+	{
+	    mesh = WorldItems/coupled556_ground,
+	    texture = Weapons/parts/coupled556_texture,
+	}
+
+	model Coupled762
+	{
+	    mesh = Weapons/parts/coupled762_model,
+	    texture = Weapons/parts/coupled762_texture,
+	}
+	
+	model Coupled762_Ground
+	{
+	    mesh = WorldItems/coupled762_ground,
+	    texture = Weapons/parts/coupled762_texture,
+	}
+	
+	model BoxOfRounds22LR
+	{
+		mesh = WorldItems/HandGunAmmoBox,
+		texture = WorldItems/BoxOfRounds22LR,
+		scale = 0.4,
+	}
+	
+	model ShotgunSawing
+	{
+		mesh = WorldItems/shotgun_sawing,
+		texture = weapons/firearm/Shotgun,
+	}
+	
+	model ShotgunSawing2
+	{
+		mesh = WorldItems/shotgun_sawing2,
+		texture = weapons/firearm/Shotgun,
+	}
+	
+	model ShotgunDBSawing
+	{
+		mesh = WorldItems/shotgundb_sawing,
+		texture = weapons/firearm/ShotgunDoubleBarrel,
+	}
+	
+	model ShotgunDBSawing2
+	{
+		mesh = WorldItems/shotgundb_sawing2,
+		texture = weapons/firearm/ShotgunDoubleBarrel,
+	}
+	
+	model Sling_Ground
+	{
+	    mesh = WorldItems/sling_ground,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_Ground
+	{
+	    mesh = WorldItems/sling_ground,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_1022
+	{
+	    mesh = Weapons/parts/sling_1022,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_1022
+	{
+	    mesh = Weapons/parts/sling_1022,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_MP5
+	{
+	    mesh = Weapons/parts/sling_mp5,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_MP5
+	{
+	    mesh = Weapons/parts/sling_mp5,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_MP5Folding
+	{
+	    mesh = Weapons/parts/sling_mp5folding,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_MP5Folding
+	{
+	    mesh = Weapons/parts/sling_mp5folding,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_MP5SD
+	{
+	    mesh = Weapons/parts/sling_mp5sd,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_MP5SD
+	{
+	    mesh = Weapons/parts/sling_mp5sd,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_R788
+	{
+	    mesh = Weapons/parts/sling_R788,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_R788
+	{
+	    mesh = Weapons/parts/sling_R788,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_R700
+	{
+	    mesh = Weapons/parts/sling_R700,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_R700
+	{
+	    mesh = Weapons/parts/sling_R700,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_M14
+	{
+	    mesh = Weapons/parts/sling_M14,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_M14
+	{
+	    mesh = Weapons/parts/sling_M14,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_M1
+	{
+	    mesh = Weapons/parts/sling_M1,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_M1
+	{
+	    mesh = Weapons/parts/sling_M1,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_FAL
+	{
+	    mesh = Weapons/parts/sling_fal,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_FAL
+	{
+	    mesh = Weapons/parts/sling_fal,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_SKS
+	{
+	    mesh = Weapons/parts/sling_sks,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_SKS
+	{
+	    mesh = Weapons/parts/sling_sks,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_Mini14
+	{
+	    mesh = Weapons/parts/sling_mini14,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_Mini14
+	{
+	    mesh = Weapons/parts/sling_mini14,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_Mini14Folding
+	{
+	    mesh = Weapons/parts/sling_mini14folding,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_Mini14Folding
+	{
+	    mesh = Weapons/parts/sling_mini14folding,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_Levergun
+	{
+	    mesh = Weapons/parts/sling_levergun,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_Levergun
+	{
+	    mesh = Weapons/parts/sling_levergun,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_Shotgun
+	{
+	    mesh = Weapons/parts/sling_shotgun,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_Shotgun
+	{
+	    mesh = Weapons/parts/sling_shotgun,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_Doublebarrel
+	{
+	    mesh = Weapons/parts/sling_doublebarrel,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_Doublebarrel
+	{
+	    mesh = Weapons/parts/sling_doublebarrel,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_Spas
+	{
+	    mesh = Weapons/parts/sling_spas,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_Spas
+	{
+	    mesh = Weapons/parts/sling_spas,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_M16
+	{
+	    mesh = Weapons/parts/sling_m16,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_M16
+	{
+	    mesh = Weapons/parts/sling_m16,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_CAR15
+	{
+	    mesh = Weapons/parts/sling_car15,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_CAR15
+	{
+	    mesh = Weapons/parts/sling_car15,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_CAR15Folded
+	{
+	    mesh = Weapons/parts/sling_car15folded,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_CAR15Folded
+	{
+	    mesh = Weapons/parts/sling_car15folded,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_AK47
+	{
+	    mesh = Weapons/parts/sling_ak47,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_AK47
+	{
+	    mesh = Weapons/parts/sling_ak47,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model Sling_AK47Folding
+	{
+	    mesh = Weapons/parts/sling_ak47folding,
+	    texture = Weapons/parts/sling_texture,
+	}
+	
+	model Sling2_AK47Folding
+	{
+	    mesh = Weapons/parts/sling_ak47folding,
+	    texture = Weapons/parts/sling2_texture,
+	}
+	
+	model M9Bayonet
+	{
+		mesh = Weapons/1handed/BayonetM9,
+		texture = Weapons/parts/BayonetM9,
+	}
+	
+	model SpearBayonet
+	{
+		mesh = Weapons/2Handed/SpearBayonet,
+		texture = Weapons/2Handed/SpearBayonet,
+
+		attachment world
+		{
+			offset = -0.0100 0.3000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

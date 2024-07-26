@@ -1,0 +1,143 @@
+module Base
+{
+   # Makarov
+
+	sound Makashoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/Makashoot.wav,
+			distanceMax = 60,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound PBshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/PBshoot.wav,
+			distanceMax = 10,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound Makareload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/Makareload.wav,
+		}
+	}
+
+	sound Makaunload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/Makaunload.wav,
+		}
+	}
+
+	sound Makastartreload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/Makastartreload.wav,
+		}
+	}
+
+   # Tokarev
+
+	sound TTshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/TTshoot.wav,
+			distanceMax = 10,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound TTmagout
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/TTmagout.wav,
+		}
+	}
+
+	sound TTreload
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/TTreload.wav,
+		}
+	}
+
+	sound TTmagin
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/TTmagin.wav,
+		}
+	}
+
+	# Stechkin
+
+	sound APSshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/APSshoot.wav,
+			distanceMax = 60,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	sound APBshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/APBshoot.wav,
+			distanceMax = 10,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+	# Nagant
+
+	sound Nagantshoot
+	{
+		category = Item,
+		maxInstancesPerEmitter = 2,
+		clip
+		{
+			file = media/sound/Nagantshoot.wav,
+			distanceMax = 65,
+			distanceMin = 0,
+			volume = 0.8,
+		}
+	}
+
+}

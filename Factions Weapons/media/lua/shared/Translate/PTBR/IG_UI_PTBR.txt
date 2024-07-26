@@ -1,0 +1,30 @@
+IGUI_PTBR = {
+
+	IGUI_FirearmRadial_FoldStock = "Dobrar estoque",
+	IGUI_FirearmRadial_UnfoldStock = "Desdobrar estoque",
+	IGUI_FirearmRadial_UseBayonet = "Usar baioneta",
+	IGUI_FirearmRadial_UseRifle = "Usar arma",
+
+	IGUI_ContextMenu_MoveToInv = "Mover para o inventário principal ou equipar",
+
+	IGUI_ContextMenu_FoldStockArg = "Dobrar %1 estoque",
+	IGUI_ContextMenu_UnfoldStockArg = "Desdobrar %1 estoque",
+	IGUI_ContextMenu_RestoreStock = "Restaura Estoque",
+
+	IGUI_ContextMenu_AttackBayonet = "Ataque com baioneta",
+	IGUI_ContextMenu_AttackRifle = "Ataque com arma",
+	IGUI_ContextMenu_RequiresBayonet = "Requer %1 no inventário principal",
+
+	IGUI_ContextMenu_AddSling = "Anexar tipoia de couro",
+	IGUI_ContextMenu_AddSling2 = "Anexar tipoia de nylon",
+	IGUI_ContextMenu_AddSlingDescription = "Reduz Pêso",
+	IGUI_ContextMenu_AddSights = "Atualizar pontos turísticos",
+	IGUI_ContextMenu_AddSightsDescription = "Melhora a velocidade de mira",
+
+	IGUI_ContextMenu_AddSilencer = "Anexar Silenciador",
+	IGUI_ContextMenu_AddSilencerDescription = "Reduz o raio do som em 80%, mas diminui ligeiramente o alcance",
+
+	IGUI_Headshot = "Headshot!",
+    IGUI_Bodyshot = "Body!",
+    IGUI_Footshot = "Foot!",
+}

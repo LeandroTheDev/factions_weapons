@@ -1,0 +1,88 @@
+Recipes_PTBR = {
+
+    Recipe_Saw_Off_Shotgun_Stock = "Coronha de espingarda serrada",
+    Recipe_Saw_Off_Double_Barrel_Shotgun_Stock = "Coronha de espingarda serrada",
+
+    Recipe_Open_Box_of_7.62_Ammo = "Caixa aberta de 7,62 munições",
+    Recipe_Place_7.62_Ammo_in_Box = "Coloque 7,62 Munições na Caixa",
+
+    Recipe_Open_Box of_.22_Ammo = "Caixa aberta de 0,22 munição",
+    Recipe_Place_.22_Ammo_in_Box = "Coloque .22 Munições na Caixa",
+
+    Recipe_Couple_5.56_Magazines = "Casal 5.56 Revistas",
+    Recipe_Separate_5.56_Magazines = "5.56 revistas separadas",
+
+    Recipe_Couple_7.62_Magazines = "Casal 7.62 Revistas",
+    Recipe_Separate_7.62_Magazines = "Revistas 7.62 separadas",
+
+    Recipe_Attach_M9_Bayonet_to_Spear = "Anexar baioneta M9 à lança",
+    Recipe_Reclaim_M9_Bayonet_from_Spear = "Recuperar a baioneta M9 da lança",
+
+	Recipe_Make_Shovel_Axe = "Criar Machado Artesanal de Metal usando Pa",	
+	Recipe_Make_Shovel_Spear = "Criar Lanca Artesanal de Metal usando Pa",	
+
+	Recipe_Make_Sharp_Trowel = "Faca uma Espatula Afiada",
+
+	Recipe_Disassemble_Garden_Shears = "Desmontar tesouras de jardim",	
+	
+	Recipe_Saw_Off_Pipe = "Serrar Tubo",		
+	Recipe_Saw_Off_Bar = "Serrar Barra",	
+
+	Recipe_Break_Plank_In_Half = "Quebrar ao Meio",	
+	Recipe_Saw_Plank_In_Half = "Serrar ao Meio",
+	
+	Recipe_Break_Tree_Branch_In_Half = "Quebrar ao Meio",		
+	Recipe_Saw_Tree_Branch_In_Half = "Serrar ao Meio",
+	Recipe_Cut_Tree_Branch_In_Half = "Cortar ao Meio",	
+
+	Recipe_Build_Spiked_Half_Plank = "Criar Meia Tabua com Pregos",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "Criar Taco de Beisebol com Arame",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Criar Taco de Beisebol com Arame Farpado",	
+	Recipe_Build_Bolted_Baseball_Bat = "Criar Taco de Beisebol com Parafusos",		
+
+	Recipe_Create_Spear = "Criar Lanca",
+	Recipe_Create_Plank_Spear = "Criar Lanca",
+	
+	Recipe_Convert_Into_Plank_Spear = "Tranformar em Lanca",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Criar Lanca de Pedra",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Adicionar Faca de Combate na Lanca",
+	Recipe_Attach_Military_Knife_to_Spear = "Adicionar Faca Tatica Militar na Lanca",
+	Recipe_Attach_Camping_Knife_to_Spear = "Adicionar Faca de Camping na Lanca",
+	Recipe_Attach_Military_Machete_to_Spear = "Adicionar Machete Tatico Militar na Lanca",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Adicionar Faca Espatula Afiada na Lanca",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "Adicionar lâmina de corte de jardim à lança",
+	Recipe_Attach_Kukri_to_Spear = "Adicione Kukri à lança",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Retirar Faca de Combate da Lanca",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Retirar Faca Tatica Militar da Lanca",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Retirar Faca de Camping da Lanca",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Retirar Machete Tatico Militar da Lanca",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Retirar Faca de Espatula Afiada da Lanca",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Retirar Lâmina de tesoura de jardim da Lanca",
+	Recipe_Reclaim_Kukri_from_Spear = "Retirar Kukri da Lanca",
+
+	Recipe_Saw_Off_Double_Barrel_Shotgun = "Serrar espingarda MP-43",
+     Recipe_Saw_Off_IZH18 = "Serrar espingarda MP-18",
+     Recipe_Saw_Off_Shotgun = "Serrar a espingarda-carabina KS-23",
+     Recipe_Saw_Off_TOZ34 = "Serrar a espingarda TOZ-34",
+     Recipe_Saw_Off_Mosin = "Rifle Serrado Mosin",
+     Recipe_Fold_AKMS = "Dobrar AKMS",
+     Recipe_Unfold_AKMS = "Desdobrar AKMS",
+     Recipe_Fold_AKS74 = "Dobrar AKS-74",
+     Recipe_Unfold_AKS74 = "Desdobrar AKS-74",
+     Recipe_Fold_AKSU = "Dobrar AKS-74U",
+     Recipe_Unfold_AKSU = "Desdobrar AKS-74U",
+     Recipe_Fold_AK74M = "Dobrar AK-74M",
+     Recipe_Unfold_AK74M = "Desdobrar AK-74M",
+     Recipe_Fold_MP40 = "Dobrar MP 40",
+     Recipe_Unfold_MP40 = "Desdobrar MP 40",
+     Recipe_Fold_PPS43 = "Dobrar PPS-43",
+     Recipe_Unfold_PPS43 = "Desdobrar PPS-43",
+     Recipe_Fold_ASVal = "Dobrar COMO 'Val'",
+     Recipe_Unfold_ASVal = "Desdobrar COMO 'Val'",
+     Recipe_Attach_APS_stock = "Anexar estoque",
+     Recipe_Detach_APS_stock = "Desanexar estoque",
+}

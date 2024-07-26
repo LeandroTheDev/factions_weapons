@@ -1,0 +1,11 @@
+﻿Tooltip_EN = {
+	Tooltip_Silencer = "Reduces sound radius by 80% but slightly lowers range",
+	Tooltip_MetalPipeSilencer = "Reduces sound radius by 60% but slightly lowers range",
+	Tooltip_TorchSilencer = "Reduces sound radius by 40% but lowers range",
+	Tooltip_WaterBottleSilencer = "Reduces sound radius by 20% but lowers range",
+
+	Tooltip_NotForCarService = "Not suitable for car servicing.",
+	Tooltip_CanBeUsedAsClawHammer = "Can be used as a hammer or nail puller.",
+	Tooltip_GardenSheersCanBeDisassembled = "Can be disassembled and used as a weapon.",
+	Tooltip_Foldable	= "Folding a weapon makes it take less space but also makes it harder to shoot with.",
+}
