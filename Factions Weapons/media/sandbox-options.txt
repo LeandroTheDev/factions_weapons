@@ -29,3 +29,11 @@ option FactionsWeapons.WeaponConditionLost
     page = FactionsWeapons,
     translation = FactionsWeapons_WeaponConditionLost,
 }
+
+option FactionsWeapons.ItemsToRemove
+{
+    type = string,
+    default = "Base.223Clip/Base.308Clip/Base.556Clip/Base.M14Clip/Base.9mmClip/Base.45Clip/Base.44Clip",
+    page = FactionsWeapons,
+    translation = FactionsWeapons_ItemsToRemove,
+}
