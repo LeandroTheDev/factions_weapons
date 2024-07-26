@@ -161,6 +161,186 @@ module Base
         ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
         WorldStaticModel = GuitarCase_Ground,
     }
+
+    item VFERifleCase10
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase11
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase12
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase13
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase14
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase15
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase16
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase17
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase18
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFERifleCase19
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
 	
 	item VFEShotgunCase1
     {
@@ -215,6 +395,78 @@ module Base
         ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
         WorldStaticModel = GuitarCase_Ground,
     }
+
+    item VFEShotgunCase4
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFEShotgunCase5
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFEShotgunCase6
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
+
+    item VFEShotgunCase7
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	20,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Gun Case,
+        Icon	=	GuitarCase02,
+        RunSpeedModifier = 0.97,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ReplaceInSecondHand = Bag_FlightCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FlightCase_RHand holdingbagright,
+        WorldStaticModel = GuitarCase_Ground,
+    }
 	
 	item VFEPistolCase1
     {
@@ -249,6 +501,86 @@ module Base
     }
 	
 	item VFEPistolCase3
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+    item VFEPistolCase4
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+    item VFEPistolCase5
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+    item VFEPistolCase6
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+    item VFEPistolCase7
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	0.5,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Gun Case,
+        Icon	=	PistolCase,
+        RunSpeedModifier = 0.99,
+        MetalValue = 15,
+        ReplaceInSecondHand = Bag_PistolCase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PistolCase_RHand holdingbagright,
+        WorldStaticModel = GunCase_Ground,
+    }
+
+    item VFEPistolCase8
     {
         DisplayCategory = Container,
         WeightReduction	=	5,
