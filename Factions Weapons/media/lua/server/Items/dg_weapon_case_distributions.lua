@@ -1,5 +1,6 @@
 ---@diagnostic disable: undefined-global
 Distributions = Distributions or {};
+local weaponSpawnrateMultipliyer = 1.0;
 
 -- Saying what will have inside the cases
 local distributionTable = {
@@ -647,124 +648,124 @@ table.insert(Distributions, 1, distributionTable);
 local function VFEGenerateLongFirearmsDistro(distroTable)
 	BulkRemoveVanillaFirearms(distroTable)
 	-- Case
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase1");
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase2");
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase3");
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase4");
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase5");
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase6");
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase8");
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase9");
-	table.insert(distroTable.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase10");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase11");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase12");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase13");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase14");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase15");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase16");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase17");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase18");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFERifleCase19");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEShotgunCase1");
-	table.insert(distroTable.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEShotgunCase2");
-	table.insert(distroTable.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEShotgunCase3");
-	table.insert(distroTable.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEShotgunCase4");
-	table.insert(distroTable.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEShotgunCase5");
-	table.insert(distroTable.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEShotgunCase6");
-	table.insert(distroTable.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEShotgunCase7");
-	table.insert(distroTable.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0025 * weaponSpawnrateMultipliyer);
 
 	-- Without case
 	table.insert(distroTable.items, "AssaultRifle2");
-	table.insert(distroTable.items, 0.0002 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0002 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "DoubleBarrelShotgun");
-	table.insert(distroTable.items, 0.005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Shotgun");
-	table.insert(distroTable.items, 0.005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "HuntingRifle");
-	table.insert(distroTable.items, 0.005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VarmintRifle");
-	table.insert(distroTable.items, 0.02 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.02 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "1022");
-	table.insert(distroTable.items, 0.02 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.02 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Mini14");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Mini14Unfolded");
-	table.insert(distroTable.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "LeverRifle");
-	table.insert(distroTable.items, 0.02 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.02 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "SKS");
-	table.insert(distroTable.items, 0.0002 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0002 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Shotgun2");
-	table.insert(distroTable.items, 0.0003 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0003 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "ShotgunSemi");
-	table.insert(distroTable.items, 0.0001 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0001 * weaponSpawnrateMultipliyer);
 end
 
 local function VFEGenerateShortFirearmsDistro(distroTable)
 	BulkRemoveVanillaFirearms(distroTable)
 	-- Case
 	table.insert(distroTable.items, "VFEPistolCase1");
-	table.insert(distroTable.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEPistolCase2");
-	table.insert(distroTable.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEPistolCase3");
-	table.insert(distroTable.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEPistolCase4");
-	table.insert(distroTable.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEPistolCase5");
-	table.insert(distroTable.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEPistolCase6");
-	table.insert(distroTable.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEPistolCase7");
-	table.insert(distroTable.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "VFEPistolCase8");
-	table.insert(distroTable.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.0004 * weaponSpawnrateMultipliyer);
 
 	-- Without case
 	table.insert(distroTable.items, "Pistol");
-	table.insert(distroTable.items, 0.2 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.2 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Pistol2");
-	table.insert(distroTable.items, 0.1 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.1 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Pistol3");
-	table.insert(distroTable.items, 0.005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Revolver");
-	table.insert(distroTable.items, 0.1 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.1 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Revolver_Long");
-	table.insert(distroTable.items, 0.005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.005 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Revolver_Short");
-	table.insert(distroTable.items, 0.05 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.05 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Glock");
-	table.insert(distroTable.items, 0.003 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.003 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "P229");
-	table.insert(distroTable.items, 0.003 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.003 * weaponSpawnrateMultipliyer);
 	table.insert(distroTable.items, "Tec9");
-	table.insert(distroTable.items, 0.002 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(distroTable.items, 0.002 * weaponSpawnrateMultipliyer);
 end
 
 local function VFEGenerateFirearmsVehicleDistro(distroTable)
@@ -778,140 +779,140 @@ end
 
 local function VFEHouseDistro()
 	-- Case
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase1");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase2");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase3");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase4");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase5");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase6");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase8");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase9");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase10");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase11");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase12");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase13");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase14");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase15");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase16");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase17");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase18");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFERifleCase19");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEShotgunCase1");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEShotgunCase2");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEShotgunCase3");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEShotgunCase4");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEShotgunCase5");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEShotgunCase6");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEShotgunCase7");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEPistolCase1");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEPistolCase2");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEPistolCase3");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEPistolCase4");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEPistolCase5");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEPistolCase6");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEPistolCase7");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.GarageFirearms.items, "VFEPistolCase8");
-	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.GarageFirearms.items, 0.0004 * weaponSpawnrateMultipliyer);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase1");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase2");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase3");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase4");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase5");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase6");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase8");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase9");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.00025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase10");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase11");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase12");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase13");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase14");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase15");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase16");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase17");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase18");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFERifleCase19");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0005 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEShotgunCase1");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEShotgunCase2");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEShotgunCase3");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEShotgunCase4");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEShotgunCase5");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEShotgunCase6");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEShotgunCase7");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0025 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEPistolCase1");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEPistolCase2");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEPistolCase3");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEPistolCase4");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEPistolCase5");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEPistolCase6");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEPistolCase7");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * weaponSpawnrateMultipliyer);
 	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "VFEPistolCase8");
-	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * SandboxVars.FactionsWeapons.Case.HouseChanceMulti);
+	table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.0004 * weaponSpawnrateMultipliyer);
 
 	-- Bedroom Dresser Handguns
 	VFEGenerateShortFirearmsDistro(ProceduralDistributions.list.BedroomDresser)
@@ -1037,6 +1038,21 @@ local function VFEVehicleDistro()
 end
 
 local function VFEWeaponDistributionsSandboxLoader()
+	if SandboxVars.RangedWeaponLoot == 1 then
+		weaponSpawnrateMultipliyer = 0.0;
+	elseif SandboxVars.RangedWeaponLoot == 2 then
+		weaponSpawnrateMultipliyer = 0.1;
+	elseif SandboxVars.RangedWeaponLoot == 3 then
+		weaponSpawnrateMultipliyer = 0.3;
+	elseif SandboxVars.RangedWeaponLoot == 4 then
+		weaponSpawnrateMultipliyer = 0.6;
+	elseif SandboxVars.RangedWeaponLoot == 5 then
+		weaponSpawnrateMultipliyer = 1.0;
+	elseif SandboxVars.RangedWeaponLoot == 6 then
+		weaponSpawnrateMultipliyer = 1.5;
+	else
+		weaponSpawnrateMultipliyer = 2.0;
+	end
 	VFEVehicleDistro()
 	VFEHouseDistro()
 	ItemPickerJava.Parse()
