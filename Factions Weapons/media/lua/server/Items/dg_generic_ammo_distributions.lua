@@ -25,7 +25,7 @@ local function generateAmmoDistribution()
         table.insert(ProceduralDistributions.list[tableName].items, "Base.9mmPistolClip20");
         table.insert(ProceduralDistributions.list[tableName].items, baseChance * ammoSpawnrateMultipliyer);
         table.insert(ProceduralDistributions.list[tableName].items, "Base.9mmSubClip32");
-        table.insert(ProceduralDistributions.list[tableName].items, baseChance6 * ammoSpawnrateMultipliyer);
+        table.insert(ProceduralDistributions.list[tableName].items, baseChance * ammoSpawnrateMultipliyer);
         table.insert(ProceduralDistributions.list[tableName].items, "Base.762PistolClip8");
         table.insert(ProceduralDistributions.list[tableName].items, baseChance * ammoSpawnrateMultipliyer);
         table.insert(ProceduralDistributions.list[tableName].items, "Base.762PistolClip10");
