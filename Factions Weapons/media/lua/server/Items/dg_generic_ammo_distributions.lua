@@ -70,7 +70,7 @@ local function generateAmmoDistribution()
         table.insert(ProceduralDistributions.list[tableName].items, baseChance * ammoSpawnrateMultipliyer);
         table.insert(ProceduralDistributions.list[tableName].items, "Base.45RifleClip32");
         table.insert(ProceduralDistributions.list[tableName].items, baseChance * ammoSpawnrateMultipliyer);
-        print("[Firearms] Inserting generic armor on " ..
+        print("[Firearms] Inserting generic ammo on " ..
             tableName ..
             " with base chance of " ..
             baseChance ..
@@ -78,7 +78,7 @@ local function generateAmmoDistribution()
             ammoSpawnrateMultipliyer ..
             " old quantity: " .. oldQuantity .. " new: " .. #ProceduralDistributions.list[tableName].items);
     end
-    insertion("ArmyStorageAmmunition", 5.0);
+    insertion("ArmyStorageAmmunition", 15.0);
     insertion("ArmyStorageGuns", 5.0);
     insertion("ArmySurplusTools", 5.0);
     insertion("ArmyStorageAmmunition", 5.0);
@@ -87,4 +87,4 @@ local function generateAmmoDistribution()
     insertion("DrugLabGuns", 5.0);
 end
 
-Events.OnGameStart.Add(generateAmmoDistribution);
+generateAmmoDistribution();

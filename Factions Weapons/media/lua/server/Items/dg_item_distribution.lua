@@ -78,4 +78,4 @@ local function generateAmmoDistribution()
     insertion("DrugLabGuns", 5.0);
 end
 
-Events.OnGameStart.Add(generateAmmoDistribution);
+generateAmmoDistribution();
