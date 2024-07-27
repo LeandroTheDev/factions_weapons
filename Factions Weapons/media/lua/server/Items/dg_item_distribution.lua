@@ -24,7 +24,7 @@ local function generateAmmoDistribution()
         table.insert(ProceduralDistributions.list[tableName].items, "Base.ShotgunSemi");
         table.insert(ProceduralDistributions.list[tableName].items, baseChance * weaponSpawnrateMultipliyer);
         table.insert(ProceduralDistributions.list[tableName].items, "Base.RUSShotgun");
-        table.insert(ProceduralDistributions.list[tableName].items, baseChance6 * weaponSpawnrateMultipliyer);
+        table.insert(ProceduralDistributions.list[tableName].items, baseChance * weaponSpawnrateMultipliyer);
         table.insert(ProceduralDistributions.list[tableName].items, "Base.RUSDoubleBarrelShotgun");
         table.insert(ProceduralDistributions.list[tableName].items, baseChance * weaponSpawnrateMultipliyer);
         table.insert(ProceduralDistributions.list[tableName].items, "Base.1022");
