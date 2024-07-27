@@ -642,7 +642,7 @@ local distributionTable = {
 	--#endregion Russian cases
 }
 -- Inserting cases in distributionTable
-table.insert(Distributions, 1, distributionTable);
+table.insert(Distributions, distributionTable);
 
 local function VanillaSpawnRemover(tableName)
 	RemoveItemFromDistribution(ProceduralDistributions.list[tableName].items, "Pistol", nil, true);
@@ -822,4 +822,3 @@ end
 -- Inserting cases spawn in ProceduralDistributions
 VFEVehicleDistro();
 VFEHouseDistro();
-ItemPickerJava.Parse()
