@@ -1,5 +1,4 @@
 ---@diagnostic disable: undefined-global
-
 local function generateAmmoDistribution()
     local ammoSpawnrateMultipliyer = 0.0;
     if SandboxVars.AmmoLoot == 1 then
