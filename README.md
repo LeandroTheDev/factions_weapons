@@ -1,3 +1,5 @@
+# Waiting for b42...
+
 # Factions Weapons
 A full modpack with weapons and mechanics to provide the game exploring and fight world more competitive and fun
 
