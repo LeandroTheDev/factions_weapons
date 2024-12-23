@@ -1,0 +1,322 @@
+   module Base
+{
+
+    imports    
+    {
+		Base
+	}
+
+	item 9mmPistolClip8
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	9mm Magazine Type-8,
+        Icon	=	GlockClip,
+        MaxAmmo = 8,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmPistolClip13
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	9mm Magazine Type-13,
+        Icon	=	GlockClip,
+        MaxAmmo = 13,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmPistolClip15
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	9mm Magazine Type-15,
+        Icon	=	GlockClip,
+        MaxAmmo = 15,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmPistolClip16
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	9mm Magazine Type-16,
+        Icon	=	GlockClip,
+        MaxAmmo = 16,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmPistolClip17
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	9mm Magazine Type-17,
+        Icon	=	GlockClip,
+        MaxAmmo = 17,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmPistolClip20
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	9mm Magazine Type-20,
+        Icon	=	GlockClip,
+        MaxAmmo = 20,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmSubClip30
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	9mm Magazine Type-30,
+        Icon	=	GlockClip,
+        MaxAmmo = 30,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmSubClip32
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	9mm Magazine Type-32,
+        Icon	=	GlockClip,
+        MaxAmmo = 32,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 762PistolClip8
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	7.62 Magazine Type-8,
+        Icon	=	BerettaClip,
+        MaxAmmo = 8,
+        AmmoType = 762Bullets,
+		StaticModel = GunMagazine,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+    item 762PistolClip10
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	7.62 Magazine Type-10,
+        Icon	=	BerettaClip,
+        MaxAmmo = 10,
+        AmmoType = 762Bullets,
+		StaticModel = GunMagazine,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+    item 762RifleClip30
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	7.62 Magazine Type-30,
+        Icon	=	BerettaClip,
+        MaxAmmo = 30,
+        AmmoType = 762Bullets,
+		StaticModel = GunMagazine,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+    item 762PistolClip35
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	7.62 Magazine Type-35,
+        Icon	=	BerettaClip,
+        MaxAmmo = 35,
+        AmmoType = 762Bullets,
+		StaticModel = GunMagazine,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+    item 762MachineClip71
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	7.62 Magazine Type-71,
+        Icon	=	BerettaClip,
+        MaxAmmo = 71,
+        AmmoType = 762Bullets,
+		StaticModel = GunMagazine,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+    item 556PistolClip10
+    {
+        DisplayCategory = Ammo,
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	.556 Magazine Type-10,
+        Icon	=	BerettaClip,
+        MaxAmmo = 10,
+        AmmoType = Base.556Bullets,
+        StaticModel = GunMagazine,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+    item 556RifleClip30
+    {
+        DisplayCategory = Ammo,
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	.556 Magazine Type-30,
+        Icon	=	BerettaClip,
+        MaxAmmo = 30,
+        AmmoType = Base.556Bullets,
+        StaticModel = GunMagazine,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+    item 22RifleClip5
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.22 Magazine Type-5,
+        Icon	=	1022Clip,
+        MaxAmmo = 5,
+        AmmoType = Base.22Bullets,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+    item 22RifleClip10
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.22 Magazine Type-10,
+        Icon	=	1022Clip,
+        MaxAmmo = 10,
+        AmmoType = Base.22Bullets,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+    item 223RifleClip20
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.223 Magazine Type-20,
+        Icon	=	1022Clip,
+        MaxAmmo = 20,
+        AmmoType = Base.223Bullets,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+    item 308RifleClip3
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.308 Magazine Type-3,
+        Icon	=	1022Clip,
+        MaxAmmo = 3,
+        AmmoType = Base.308Bullets,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+    item 308RifleClip20
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.308 Magazine Type-20,
+        Icon	=	1022Clip,
+        MaxAmmo = 20,
+        AmmoType = Base.308Bullets,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+    item 44RifleClip8
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.44 Magazine Type-8,
+        Icon	=	1022Clip,
+        MaxAmmo = 8,
+        AmmoType = Base.Bullets44,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+    item 45RifleClip7
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.45 Magazine Type-7,
+        Icon	=	1022Clip,
+        MaxAmmo = 7,
+        AmmoType = Base.Bullets45,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+    item 45RifleClip12
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.45 Magazine Type-12,
+        Icon	=	1022Clip,
+        MaxAmmo = 12,
+        AmmoType = Base.Bullets45,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+    item 45RifleClip32
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	.45 Magazine Type-32,
+        Icon	=	1022Clip,
+        MaxAmmo = 32,
+        AmmoType = Base.Bullets45,
+        StaticModel = Magazine_1022,
+        WorldStaticModel = Magazine_1022,
+    }
+}

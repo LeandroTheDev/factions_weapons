@@ -1,7 +1,0 @@
-Sandbox_EN = {
-    Sandbox_FactionsWeapons = "Factions Weapons",
-    Sandbox_FactionsWeapons_Damage = "Stock Hit Damage",
-    Sandbox_FactionsWeapons_EnduranceLost = "Stock Endurance Reduce",
-    Sandbox_FactionsWeapons_WeaponConditionLost = "Stock Condition Reduce",
-    Sandbox_FactionsWeapons_ItemsToRemove = "Items to Remove from Spawning",
-}
